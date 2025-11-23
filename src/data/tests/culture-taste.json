@@ -3,7 +3,7 @@
   "title": "음악/영화 취향 분석",
   "description": "플레이리스트와 왓챠 피드로 분석하는 나의 문화 DNA! 10가지 질문으로 당신의 취향 레벨을 확인하세요.",
   "category": "취향",
-  "imageUrl": "/images/culture-taste.png",
+  "imageUrl": "/images/culture-taste.svg",
   "questions": [
     {
       "id": 1,

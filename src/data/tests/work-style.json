@@ -3,116 +3,116 @@
   "title": "나의 일하는 스타일",
   "description": "나는 팀플형일까 독고다이형일까? 10가지 업무 상황으로 나의 강점을 찾아보세요.",
   "category": "직업",
-  "imageUrl": "/images/work-style.png",
+  "imageUrl": "/images/work-style.svg",
   "questions": [
     {
       "id": 1,
-      "text": "새로운 프로젝트가 주어졌다. 가장 먼저 할 일은?",
+      "text": "새로운 프로젝트가 주어졌을 때 나는?",
       "options": [
-        { "text": "전체적인 그림과 목표부터 설정한다.", "score": { "Vision": 1, "Detail": 0 } },
-        { "text": "세부적인 일정과 리소스부터 체크한다.", "score": { "Vision": 0, "Detail": 1 } }
+        { "text": "일단 시작하고 보면서 수정한다. (Action!)", "score": { "Action": 1, "Plan": 0 } },
+        { "text": "완벽한 계획을 세우고 시작한다. (Plan!)", "score": { "Action": 0, "Plan": 1 } }
       ]
     },
     {
       "id": 2,
       "text": "회의 시간에 나는?",
       "options": [
-        { "text": "적극적으로 아이디어를 내고 발언한다.", "score": { "Speak": 1, "Listen": 0 } },
-        { "text": "다른 사람들의 의견을 듣고 정리한다.", "score": { "Speak": 0, "Listen": 1 } }
+        { "text": "아이디어를 적극적으로 던진다.", "score": { "Action": 1, "Plan": 0 } },
+        { "text": "다른 사람의 의견을 듣고 정리한다.", "score": { "Action": 0, "Plan": 1 } }
       ]
     },
     {
       "id": 3,
-      "text": "데드라인이 코앞인데 일이 안 끝났다면?",
+      "text": "업무 마감이 코앞에 닥쳤을 때",
       "options": [
-        { "text": "퀄리티가 중요하지! 야근해서라도 완벽하게.", "score": { "Quality": 1, "Speed": 0 } },
-        { "text": "일단 기한 맞추는 게 우선! 빠르게 마무리.", "score": { "Quality": 0, "Speed": 1 } }
+        { "text": "초인적인 집중력으로 벼락치기!", "score": { "Action": 1, "Plan": 0 } },
+        { "text": "미리미리 해놔서 여유롭다.", "score": { "Action": 0, "Plan": 1 } }
       ]
     },
     {
       "id": 4,
-      "text": "업무 메일을 쓸 때 나의 스타일은?",
+      "text": "팀장님이 모호한 지시를 내렸다면?",
       "options": [
-        { "text": "핵심만 간단명료하게! (용건만 간단히)", "score": { "Vision": 1, "Detail": 0 } },
-        { "text": "인사말부터 맺음말까지 정중하고 상세하게.", "score": { "Vision": 0, "Detail": 1 } }
+        { "text": "일단 내 식대로 해석해서 진행한다.", "score": { "Action": 1, "Plan": 0 } },
+        { "text": "정확한 의도를 파악할 때까지 질문한다.", "score": { "Action": 0, "Plan": 1 } }
       ]
     },
     {
       "id": 5,
-      "text": "동료가 실수를 했을 때",
+      "text": "선호하는 업무 환경은?",
       "options": [
-        { "text": "바로 지적하고 수정 방향을 알려준다.", "score": { "Speak": 1, "Listen": 0 } },
-        { "text": "조용히 내가 수정하거나 나중에 따로 말한다.", "score": { "Speak": 0, "Listen": 1 } }
+        { "text": "자유롭고 시끌벅적한 카페 같은 분위기", "score": { "Team": 1, "Solo": 0 } },
+        { "text": "조용하고 집중할 수 있는 독서실 분위기", "score": { "Team": 0, "Solo": 1 } }
       ]
     },
     {
       "id": 6,
-      "text": "새로운 툴(Tool) 도입 제안이 오면?",
+      "text": "점심 시간 메뉴 선정은?",
       "options": [
-        { "text": "오, 신기한데? 바로 써보자!", "score": { "Vision": 1, "Detail": 0 } },
-        { "text": "익숙한 게 좋은데... 오류 나면 어떡해?", "score": { "Vision": 0, "Detail": 1 } }
+        { "text": "다 같이 우르르 가서 투표로 정한다.", "score": { "Team": 1, "Solo": 0 } },
+        { "text": "혼자 편하게 먹거나 도시락을 싸온다.", "score": { "Team": 0, "Solo": 1 } }
       ]
     },
     {
       "id": 7,
-      "text": "보고서를 작성할 때 가장 신경 쓰는 부분은?",
+      "text": "동료가 실수를 했을 때",
       "options": [
-        { "text": "설득력 있는 스토리텔링과 임팩트", "score": { "Vision": 1, "Detail": 0 } },
-        { "text": "정확한 수치와 오타 없는 완벽함", "score": { "Vision": 0, "Detail": 1 } }
+        { "text": "\"그럴 수 있지~\" 하며 같이 수습해준다.", "score": { "Team": 1, "Solo": 0 } },
+        { "text": "원인을 분석하고 재발 방지를 조언한다.", "score": { "Team": 0, "Solo": 1 } }
       ]
     },
     {
       "id": 8,
-      "text": "점심시간 메뉴 선정!",
+      "text": "업무 중 모르는 게 생기면?",
       "options": [
-        { "text": "\"오늘은 여기 가죠!\" 내가 주도한다.", "score": { "Speak": 1, "Listen": 0 } },
-        { "text": "\"다들 뭐 드실래요?\" 의견을 묻는다.", "score": { "Speak": 0, "Listen": 1 } }
+        { "text": "옆자리 동료에게 바로 물어본다.", "score": { "Team": 1, "Solo": 0 } },
+        { "text": "구글링과 매뉴얼을 뒤져서 혼자 해결한다.", "score": { "Team": 0, "Solo": 1 } }
       ]
     },
     {
       "id": 9,
-      "text": "예상치 못한 문제가 발생했을 때",
+      "text": "야근에 대한 생각은?",
       "options": [
-        { "text": "빠르게 대안을 찾아 실행에 옮긴다.", "score": { "Quality": 0, "Speed": 1 } },
-        { "text": "원인을 철저하게 분석하고 해결책을 찾는다.", "score": { "Quality": 1, "Speed": 0 } }
+        { "text": "다 같이 으쌰으쌰 하면 할 만하다.", "score": { "Team": 1, "Solo": 0 } },
+        { "text": "내 할 일 다 했으면 칼퇴가 원칙이다.", "score": { "Team": 0, "Solo": 1 } }
       ]
     },
     {
       "id": 10,
-      "text": "내가 선호하는 피드백 방식은?",
+      "text": "내가 팀장이라면?",
       "options": [
-        { "text": "직설적이라도 뼈 때리는 팩트 폭격", "score": { "Speak": 1, "Listen": 0 } },
-        { "text": "돌려 말하더라도 기분 상하지 않게 격려", "score": { "Speak": 0, "Listen": 1 } }
+        { "text": "팀워크와 분위기를 중시하는 리더", "score": { "Team": 1, "Solo": 0 } },
+        { "text": "성과와 효율을 중시하는 리더", "score": { "Team": 0, "Solo": 1 } }
       ]
     }
   ],
   "results": [
     {
-      "type": "COMMANDER",
-      "title": "카리스마 리더",
-      "description": "큰 그림을 보고 팀을 이끄는 능력이 탁월해요. 명확한 목표 설정과 결단력으로 성과를 만들어내는 타입입니다.",
-      "traits": ["추진력", "결단력", "비전"],
-      "tags": ["리더십", "목표지향", "성과중심"],
+      "type": "LEADER",
+      "title": "카리스마 리더형",
+      "description": "빠른 판단력과 추진력으로 팀을 이끄는 리더 스타일! 목표를 향해 거침없이 나아가며 동료들에게 에너지를 불어넣습니다.",
+      "traits": ["추진력", "결단력", "통솔력"],
+      "tags": ["불도저", "해결사", "야망가"],
       "graph": [
-        { "label": "리더십", "value": 95 },
-        { "label": "기획력", "value": 90 },
-        { "label": "꼼꼼함", "value": 50 },
-        { "label": "소통", "value": 70 },
-        { "label": "순발력", "value": 80 }
+        { "label": "추진력", "value": 95 },
+        { "label": "협동심", "value": 85 },
+        { "label": "계획성", "value": 60 },
+        { "label": "적응력", "value": 90 },
+        { "label": "분석력", "value": 70 }
       ]
     },
     {
-      "type": "SUPPORTER",
-      "title": "든든한 서포터",
-      "description": "팀의 빈틈을 채워주고 조화를 이끌어내는 핵심 인재! 꼼꼼한 일 처리와 원활한 소통 능력으로 신뢰받는 타입입니다.",
-      "traits": ["성실함", "꼼꼼함", "협력"],
-      "tags": ["팀플레이어", "디테일", "책임감"],
+      "type": "EXPERT",
+      "title": "고독한 전문가형",
+      "description": "자신의 분야에서 깊이 있는 지식과 기술을 추구하는 장인 스타일! 혼자서 몰입할 때 최고의 성과를 냅니다.",
+      "traits": ["전문성", "집중력", "완벽주의"],
+      "tags": ["장인정신", "마이웨이", "디테일"],
       "graph": [
-        { "label": "리더십", "value": 50 },
-        { "label": "기획력", "value": 60 },
-        { "label": "꼼꼼함", "value": 95 },
-        { "label": "소통", "value": 90 },
-        { "label": "순발력", "value": 60 }
+        { "label": "추진력", "value": 50 },
+        { "label": "협동심", "value": 40 },
+        { "label": "계획성", "value": 95 },
+        { "label": "적응력", "value": 60 },
+        { "label": "분석력", "value": 98 }
       ]
     }
   ]

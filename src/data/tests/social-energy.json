@@ -3,7 +3,7 @@
   "title": "사회적 에너지 스타일",
   "description": "사람들 틈에서 나는 어떤 배터리일까? 나의 사회적 충전 방식을 10가지 질문으로 알아봅니다.",
   "category": "성격",
-  "imageUrl": "/images/social-energy.png",
+  "imageUrl": "/images/social-energy.svg",
   "questions": [
     {
       "id": 1,

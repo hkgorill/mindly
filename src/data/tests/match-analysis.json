@@ -1,118 +1,118 @@
 {
   "id": "match-analysis",
-  "title": "로맨스 궁합 분석",
-  "description": "나와 가장 잘 맞는 연애 상대는 어떤 타입일까요? 10가지 질문으로 이상적인 파트너를 찾아드립니다.",
+  "title": "AI 궁합 분석",
+  "description": "우리는 천생연분일까? 10가지 취향 질문으로 알아보는 커플 궁합도 테스트!",
   "category": "연애",
-  "imageUrl": "/images/match-analysis.png",
+  "imageUrl": "/images/match-analysis.svg",
   "questions": [
     {
       "id": 1,
-      "text": "연인 사이에 가장 중요하게 생각하는 것은?",
+      "text": "데이트 메뉴를 고를 때",
       "options": [
-        { "text": "설레는 감정과 뜨거운 스킨십", "score": { "Hot": 1, "Cold": 0 } },
-        { "text": "서로를 존중하는 태도와 신뢰", "score": { "Hot": 0, "Cold": 1 } }
+        { "text": "새로운 맛집 도전! 퓨전 요리나 이국적인 음식", "score": { "New": 1, "Familiar": 0 } },
+        { "text": "실패 없는 보장된 맛! 늘 가던 단골집이나 한식", "score": { "New": 0, "Familiar": 1 } }
       ]
     },
     {
       "id": 2,
-      "text": "기념일 선물을 준비한다면?",
+      "text": "여행 스타일은?",
       "options": [
-        { "text": "깜짝 서프라이즈 이벤트!", "score": { "Hot": 1, "Cold": 0 } },
-        { "text": "평소에 필요하다고 했던 실용적인 물건", "score": { "Hot": 0, "Cold": 1 } }
+        { "text": "여기저기 돌아다니는 관광형", "score": { "Active": 1, "Rest": 0 } },
+        { "text": "호텔에서 푹 쉬는 호캉스형", "score": { "Active": 0, "Rest": 1 } }
       ]
     },
     {
       "id": 3,
-      "text": "연락 문제로 다퉜을 때?",
+      "text": "연락 빈도는?",
       "options": [
-        { "text": "사랑하면 당연히 자주 해야지! 섭섭해.", "score": { "Hot": 1, "Cold": 0 } },
-        { "text": "각자의 생활도 중요해. 이해하려 노력한다.", "score": { "Hot": 0, "Cold": 1 } }
+        { "text": "시시콜콜 모든 걸 공유해야 한다.", "score": { "Sticky": 1, "Free": 0 } },
+        { "text": "중요한 용건 위주로, 각자 시간 존중.", "score": { "Sticky": 0, "Free": 1 } }
       ]
     },
     {
       "id": 4,
-      "text": "이상적인 데이트 코스는?",
+      "text": "소비 성향은?",
       "options": [
-        { "text": "놀이공원, 페스티벌 등 신나고 활동적인 곳", "score": { "Hot": 1, "Cold": 0 } },
-        { "text": "조용한 카페, 전시회 등 대화하기 좋은 곳", "score": { "Hot": 0, "Cold": 1 } }
+        { "text": "현재를 즐겨야지! 사고 싶은 건 산다.", "score": { "Flex": 1, "Save": 0 } },
+        { "text": "미래를 위해! 가성비 따지고 저축한다.", "score": { "Flex": 0, "Save": 1 } }
       ]
     },
     {
       "id": 5,
-      "text": "연인이 바빠서 못 만난다고 하면?",
+      "text": "개그 코드는?",
       "options": [
-        { "text": "너무 보고 싶어서 집 앞으로 찾아간다.", "score": { "Hot": 1, "Cold": 0 } },
-        { "text": "알겠어, 수고해! (나도 내 할 일 한다)", "score": { "Hot": 0, "Cold": 1 } }
+        { "text": "병맛, 몸개그, 하이텐션 드립", "score": { "Wild": 1, "Calm": 0 } },
+        { "text": "지적이고 위트 있는 언어유희", "score": { "Wild": 0, "Calm": 1 } }
       ]
     },
     {
       "id": 6,
-      "text": "사랑에 빠지는 속도는?",
+      "text": "갈등 해결 방식은?",
       "options": [
-        { "text": "첫눈에 반한다. 금사빠!", "score": { "Hot": 1, "Cold": 0 } },
-        { "text": "오래 지켜보며 서서히 스며든다.", "score": { "Hot": 0, "Cold": 1 } }
+        { "text": "그때그때 감정을 털어놓고 푼다.", "score": { "Hot": 1, "Cold": 0 } },
+        { "text": "논리적으로 잘잘못을 따져서 해결한다.", "score": { "Hot": 0, "Cold": 1 } }
       ]
     },
     {
       "id": 7,
-      "text": "연인과 함께 하고 싶은 것은?",
+      "text": "주말 아침 기상 시간은?",
       "options": [
-        { "text": "커플룩 입고 인생네컷 찍기", "score": { "Hot": 1, "Cold": 0 } },
-        { "text": "같이 장보고 요리해서 밥 먹기", "score": { "Hot": 0, "Cold": 1 } }
+        { "text": "눈 떠지면 일어남 (오후 1시)", "score": { "Lazy": 1, "Diligence": 0 } },
+        { "text": "아침 9시면 기상 완료!", "score": { "Lazy": 0, "Diligence": 1 } }
       ]
     },
     {
       "id": 8,
-      "text": "질투심의 정도는?",
+      "text": "사진 찍는 걸 좋아하나?",
       "options": [
-        { "text": "내 거 건드리면 가만 안 둠. 소유욕 강함.", "score": { "Hot": 1, "Cold": 0 } },
-        { "text": "믿음이 있다면 구속하지 않는다.", "score": { "Hot": 0, "Cold": 1 } }
+        { "text": "남는 건 사진뿐! 인생샷 건져야지.", "score": { "Photo": 1, "Eye": 0 } },
+        { "text": "눈으로 담는 게 더 중요하지.", "score": { "Photo": 0, "Eye": 1 } }
       ]
     },
     {
       "id": 9,
-      "text": "결혼에 대한 생각은?",
+      "text": "선물 취향은?",
       "options": [
-        { "text": "사랑한다면 당장이라도 하고 싶다.", "score": { "Hot": 1, "Cold": 0 } },
-        { "text": "경제적, 현실적 조건이 갖춰져야 한다.", "score": { "Hot": 0, "Cold": 1 } }
+        { "text": "깜짝 서프라이즈와 정성 담긴 편지", "score": { "Heart": 1, "Real": 0 } },
+        { "text": "평소 갖고 싶었던 실용적인 물건", "score": { "Heart": 0, "Real": 1 } }
       ]
     },
     {
       "id": 10,
-      "text": "헤어질 때 더 마음 아픈 상황은?",
+      "text": "결혼에 대한 생각은?",
       "options": [
-        { "text": "더 이상 나를 사랑하지 않는 눈빛을 볼 때", "score": { "Hot": 1, "Cold": 0 } },
-        { "text": "현실적인 문제로 어쩔 수 없이 헤어질 때", "score": { "Hot": 0, "Cold": 1 } }
+        { "text": "사랑한다면 당연히 해야지!", "score": { "Marry": 1, "Single": 0 } },
+        { "text": "필수는 아님. 둘만 좋으면 돼.", "score": { "Marry": 0, "Single": 1 } }
       ]
     }
   ],
   "results": [
     {
-      "type": "ROMANTIC",
-      "title": "낭만적인 로맨티스트",
-      "description": "사랑 없이는 못 살아! 감정 표현이 풍부하고 열정적인 당신에게는, 그 열정을 함께 태워줄 뜨거운 파트너나 당신을 귀여워해 줄 어른스러운 사람이 잘 맞아요.",
-      "traits": ["다정함", "애교", "감성적"],
-      "tags": ["사랑꾼", "이벤트장인", "금사빠"],
+      "type": "DESTINY",
+      "title": "환상의 짝꿍",
+      "description": "말하지 않아도 통하는 사이! 식성부터 개그 코드까지 찰떡궁합이네요. 전생에 부부였을지도 몰라요.",
+      "traits": ["천생연분", "소울메이트", "찰떡궁합"],
+      "tags": ["결혼각", "영혼의단짝", "티키타카"],
       "graph": [
-        { "label": "애정도", "value": 95 },
-        { "label": "표현력", "value": 90 },
-        { "label": "현실성", "value": 40 },
-        { "label": "안정감", "value": 60 },
-        { "label": "질투", "value": 85 }
+        { "label": "식성", "value": 90 },
+        { "label": "가치관", "value": 95 },
+        { "label": "개그코드", "value": 85 },
+        { "label": "생활패턴", "value": 80 },
+        { "label": "스킨십", "value": 90 }
       ]
     },
     {
-      "type": "PRAGMATIC",
-      "title": "현실적인 동반자",
-      "description": "연애도 삶의 일부! 서로에게 긍정적인 영향을 주며 함께 성장하는 관계를 꿈꾸는 당신. 안정적이고 신뢰할 수 있는 성숙한 파트너가 제격입니다.",
-      "traits": ["신뢰", "성숙함", "배려"],
-      "tags": ["어른연애", "신뢰우선", "롱런"],
+      "type": "EFFORT",
+      "title": "노력이 필요한 관계",
+      "description": "서로 다른 점이 매력으로 다가왔지만, 맞춰가야 할 부분도 많아요. 다름을 인정하고 존중한다면 더 깊어질 수 있어요.",
+      "traits": ["상호보완", "존중필요", "새로운매력"],
+      "tags": ["화성남금성녀", "맞춰가기", "이해심"],
       "graph": [
-        { "label": "애정도", "value": 70 },
-        { "label": "표현력", "value": 50 },
-        { "label": "현실성", "value": 95 },
-        { "label": "안정감", "value": 90 },
-        { "label": "질투", "value": 30 }
+        { "label": "식성", "value": 40 },
+        { "label": "가치관", "value": 50 },
+        { "label": "개그코드", "value": 30 },
+        { "label": "생활패턴", "value": 60 },
+        { "label": "스킨십", "value": 70 }
       ]
     }
   ]

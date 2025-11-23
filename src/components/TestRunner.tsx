@@ -49,8 +49,17 @@ export function TestRunner({ test }: { test: TestData }) {
   if (!started) {
     return (
       <div className="max-w-2xl mx-auto py-12 text-center space-y-8 animate-fade-in">
-        <div className="w-full h-64 bg-indigo-50 rounded-3xl flex items-center justify-center mb-8 border-4 border-white shadow-inner">
-           <span className="text-6xl">🎨</span>
+        <div className="w-full h-64 bg-indigo-50 rounded-3xl flex items-center justify-center mb-8 border-4 border-white shadow-inner overflow-hidden relative">
+           {test.imageUrl ? (
+             // eslint-disable-next-line @next/next/no-img-element
+             <img 
+               src={test.imageUrl} 
+               alt={test.title} 
+               className="w-full h-full object-cover"
+             />
+           ) : (
+             <span className="text-6xl">🎨</span>
+           )}
         </div>
         <h1 className="text-3xl md:text-4xl font-bold text-slate-800">{test.title}</h1>
         <p className="text-lg text-slate-600 leading-relaxed whitespace-pre-line">{test.description}</p>

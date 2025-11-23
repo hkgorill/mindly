@@ -92,8 +92,21 @@ export default function Home() {
                 href={`/test/${test.id}`}
                 className="group relative bg-white/40 backdrop-blur-md border border-white/50 rounded-3xl p-6 hover:bg-white/60 transition-all hover:scale-[1.02] hover:shadow-xl cursor-pointer overflow-hidden"
               >
+                {/* Background Image Decoration */}
+                {test.imageUrl && (
+                  <div className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-500">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={test.imageUrl} alt="" className="w-full h-full object-cover blur-xl scale-150" />
+                  </div>
+                )}
+
                 <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 transition-opacity">
-                   <Sparkles size={100} className="text-indigo-600" />
+                   {test.imageUrl ? (
+                     // eslint-disable-next-line @next/next/no-img-element
+                     <img src={test.imageUrl} alt="" className="w-24 h-24 object-contain" />
+                   ) : (
+                     <Sparkles size={100} className="text-indigo-600" />
+                   )}
                 </div>
 
                 <div className="relative z-10 space-y-4">

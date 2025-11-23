@@ -3,116 +3,116 @@
   "title": "직업 캐릭터 타입",
   "description": "나는 회사에서 어떤 캐릭터일까? 10가지 질문으로 알아보는 RPG 직업별 나의 업무 스타일!",
   "category": "직업",
-  "imageUrl": "/images/job-character.png",
+  "imageUrl": "/images/job-character.svg",
   "questions": [
     {
       "id": 1,
-      "text": "업무 방식 중 더 선호하는 것은?",
+      "text": "나의 주 업무 스타일은?",
       "options": [
-        { "text": "새로운 아이디어를 내고 기획하는 일", "score": { "New": 1, "Stable": 0 } },
-        { "text": "정해진 매뉴얼대로 꼼꼼하게 처리하는 일", "score": { "New": 0, "Stable": 1 } }
+        { "text": "직접 발로 뛰며 현장을 누빈다.", "score": { "Warrior": 1, "Mage": 0 } },
+        { "text": "자리에 앉아 데이터를 분석하고 전략을 짠다.", "score": { "Warrior": 0, "Mage": 1 } }
       ]
     },
     {
       "id": 2,
-      "text": "팀 프로젝트에서 내가 주로 맡는 역할은?",
+      "text": "팀의 위기 상황 발생!",
       "options": [
-        { "text": "방향을 제시하고 판을 흔드는 역할", "score": { "New": 1, "Stable": 0 } },
-        { "text": "자료를 정리하고 오류를 검수하는 역할", "score": { "New": 0, "Stable": 1 } }
+        { "text": "\"내가 해결할게!\" 선봉에 선다.", "score": { "Warrior": 1, "Mage": 0 } },
+        { "text": "뒤에서 상황을 파악하고 해결책을 제시한다.", "score": { "Warrior": 0, "Mage": 1 } }
       ]
     },
     {
       "id": 3,
-      "text": "반복되는 단순 업무를 해야 한다면?",
+      "text": "선호하는 보상은?",
       "options": [
-        { "text": "지루해서 미쳐버릴 것 같다. 자동화하고 싶다.", "score": { "New": 1, "Stable": 0 } },
-        { "text": "마음 편하고 좋다. 기계처럼 처리한다.", "score": { "New": 0, "Stable": 1 } }
+        { "text": "두둑한 인센티브와 승진", "score": { "Warrior": 1, "Mage": 0 } },
+        { "text": "새로운 지식 습득과 자기 성장", "score": { "Warrior": 0, "Mage": 1 } }
       ]
     },
     {
       "id": 4,
-      "text": "회사의 시스템이나 규칙이 비효율적일 때",
+      "text": "나의 무기는?",
       "options": [
-        { "text": "바꾸자고 건의하거나 몰래 내 방식을 쓴다.", "score": { "New": 1, "Stable": 0 } },
-        { "text": "불편하지만 규칙이니까 따른다.", "score": { "New": 0, "Stable": 1 } }
+        { "text": "지치지 않는 체력과 멘탈", "score": { "Warrior": 1, "Mage": 0 } },
+        { "text": "남들은 모르는 전문 지식과 스킬", "score": { "Warrior": 0, "Mage": 1 } }
       ]
     },
     {
       "id": 5,
-      "text": "내가 듣고 싶은 칭찬은?",
+      "text": "동료가 도움을 요청하면?",
       "options": [
-        { "text": "\"어떻게 이런 생각을 했어? 천재 아냐?\"", "score": { "New": 1, "Stable": 0 } },
-        { "text": "\"역시 꼼꼼하네. 믿고 맡길 수 있어.\"", "score": { "New": 0, "Stable": 1 } }
+        { "text": "직접 가서 같이 도와준다.", "score": { "Healer": 1, "Rogue": 0 } },
+        { "text": "효율적인 방법을 알려준다.", "score": { "Healer": 0, "Rogue": 1 } }
       ]
     },
     {
       "id": 6,
-      "text": "갑자기 출장이 잡혔다!",
+      "text": "팀 분위기가 다운되었을 때",
       "options": [
-        { "text": "오예! 바람도 쐬고 좋지~ (여행 기분)", "score": { "New": 1, "Stable": 0 } },
-        { "text": "익숙한 사무실이 좋은데... (부담감)", "score": { "New": 0, "Stable": 1 } }
+        { "text": "간식 쏘기나 농담으로 분위기를 띄운다.", "score": { "Healer": 1, "Rogue": 0 } },
+        { "text": "조용히 내 할 일에 집중한다.", "score": { "Healer": 0, "Rogue": 1 } }
       ]
     },
     {
       "id": 7,
-      "text": "책상을 꾸민다면?",
+      "text": "업무 보고서를 쓸 때",
       "options": [
-        { "text": "좋아하는 피규어, 엽서 등으로 개성 있게", "score": { "New": 1, "Stable": 0 } },
-        { "text": "필수 사무용품만 깔끔하게 정렬", "score": { "New": 0, "Stable": 1 } }
+        { "text": "화려한 미사여구와 감동적인 스토리", "score": { "Healer": 1, "Rogue": 0 } },
+        { "text": "핵심만 간단히, 팩트 위주로", "score": { "Healer": 0, "Rogue": 1 } }
       ]
     },
     {
       "id": 8,
-      "text": "점심 메뉴 고르기 귀찮을 때",
+      "text": "회사 생활의 낙은?",
       "options": [
-        { "text": "아무거나 새로운 거 도전해볼까?", "score": { "New": 1, "Stable": 0 } },
-        { "text": "맨날 가던 김치찌개 집 가자.", "score": { "New": 0, "Stable": 1 } }
+        { "text": "좋은 동료들과의 수다 타임", "score": { "Healer": 1, "Rogue": 0 } },
+        { "text": "월급날 통장에 찍히는 숫자", "score": { "Healer": 0, "Rogue": 1 } }
       ]
     },
     {
       "id": 9,
-      "text": "내가 사장이라면?",
+      "text": "새로운 툴이나 기술 도입!",
       "options": [
-        { "text": "자유로운 복장과 수평적인 문화의 스타트업", "score": { "New": 1, "Stable": 0 } },
-        { "text": "체계적인 시스템과 복지가 갖춰진 대기업", "score": { "New": 0, "Stable": 1 } }
+        { "text": "익숙한 게 좋은데... 배우기 귀찮다.", "score": { "Warrior": 1, "Healer": 0 } },
+        { "text": "오! 신기하다. 얼른 써봐야지.", "score": { "Mage": 1, "Rogue": 0 } }
       ]
     },
     {
       "id": 10,
-      "text": "은퇴 후의 삶은?",
+      "text": "나의 최종 목표는?",
       "options": [
-        { "text": "세계 여행 다니며 안 해본 거 다 해보기", "score": { "New": 1, "Stable": 0 } },
-        { "text": "전원주택에서 텃밭 가꾸며 평화롭게 살기", "score": { "New": 0, "Stable": 1 } }
+        { "text": "모두에게 존경받는 임원/리더", "score": { "Warrior": 1, "Healer": 1 } },
+        { "text": "대체 불가능한 전문가/프리랜서", "score": { "Mage": 1, "Rogue": 1 } }
       ]
     }
   ],
   "results": [
     {
-      "type": "INNOVATOR",
-      "title": "창조적인 마법사",
-      "description": "남들이 생각하지 못한 기발한 아이디어로 문제를 해결합니다. 루틴한 업무보다는 새로운 도전과 변화를 즐기는 혁신가 타입!",
-      "traits": ["창의력", "독창성", "자유"],
-      "tags": ["아이디어뱅크", "기획자", "변화무쌍"],
+      "type": "HERO",
+      "title": "전장을 누비는 용사",
+      "description": "행동대장! 뛰어난 실행력과 리더십으로 팀을 승리로 이끄는 타입입니다. 성과를 내는 것을 즐기며 도전적인 과제를 좋아합니다.",
+      "traits": ["실행력", "리더십", "도전정신"],
+      "tags": ["행동파", "성과주의", "열정맨"],
       "graph": [
-        { "label": "창의성", "value": 98 },
-        { "label": "안정성", "value": 20 },
-        { "label": "추진력", "value": 85 },
-        { "label": "꼼꼼함", "value": 30 },
-        { "label": "사교성", "value": 70 }
+        { "label": "실행력", "value": 95 },
+        { "label": "전문성", "value": 50 },
+        { "label": "협동심", "value": 80 },
+        { "label": "유연성", "value": 60 },
+        { "label": "야망", "value": 90 }
       ]
     },
     {
-      "type": "GUARDIAN",
-      "title": "철벽의 수호기사",
-      "description": "맡은 일은 끝까지 책임지는 든든한 수호자! 꼼꼼함과 성실함으로 팀의 안정감을 담당하며, 실수를 용납하지 않는 완벽주의자입니다.",
-      "traits": ["성실함", "책임감", "정확성"],
-      "tags": ["믿을맨", "꼼꼼왕", "매뉴얼"],
+      "type": "WIZARD",
+      "title": "지혜로운 현자",
+      "description": "지식의 탐구자! 깊이 있는 전문성과 통찰력으로 문제의 본질을 꿰뚫어 봅니다. 팀의 두뇌 역할을 하며 전략을 제시합니다.",
+      "traits": ["전문성", "통찰력", "신중함"],
+      "tags": ["브레인", "전략가", "척척박사"],
       "graph": [
-        { "label": "창의성", "value": 40 },
-        { "label": "안정성", "value": 95 },
-        { "label": "추진력", "value": 60 },
-        { "label": "꼼꼼함", "value": 98 },
-        { "label": "사교성", "value": 60 }
+        { "label": "실행력", "value": 40 },
+        { "label": "전문성", "value": 98 },
+        { "label": "협동심", "value": 50 },
+        { "label": "유연성", "value": 70 },
+        { "label": "야망", "value": 60 }
       ]
     }
   ]

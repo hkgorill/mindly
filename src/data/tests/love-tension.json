@@ -1,118 +1,118 @@
 {
   "id": "love-tension",
-  "title": "나의 연애 텐션 지수",
-  "description": "나는 연애할 때 어떤 스타일일까? 10가지 상황으로 알아보는 나의 연애 텐션!",
+  "title": "연애 텐션 테스트",
+  "description": "지금 썸 타는 그 사람과 나의 텐션은? 10가지 상황으로 알아보는 나의 연애 스타일!",
   "category": "연애",
-  "imageUrl": "/images/love-tension.png",
+  "imageUrl": "/images/love-tension.svg",
   "questions": [
     {
       "id": 1,
-      "text": "썸 타는 상대에게 연락이 왔다! 나의 반응은?",
+      "text": "관심 있는 사람에게 연락이 왔다! 답장은?",
       "options": [
-        { "text": "바로 답장! 기다렸다는 듯이 칼답한다.", "score": { "Active": 1, "Passive": 0 } },
-        { "text": "밀당 좀 해볼까? 10분 뒤에 보낸다.", "score": { "Active": 0, "Passive": 1 } }
+        { "text": "1분 안에 바로 확인! 칼답한다.", "score": { "Hot": 1, "Cool": 0 } },
+        { "text": "밀당은 기본이지. 10분 뒤에 보낸다.", "score": { "Hot": 0, "Cool": 1 } }
       ]
     },
     {
       "id": 2,
-      "text": "데이트 장소를 정해야 한다면?",
+      "text": "데이트 코스를 짤 때 나는?",
       "options": [
-        { "text": "내가 핫플레이스 리스트 쫙 뽑아간다.", "score": { "Active": 1, "Passive": 0 } },
-        { "text": "상대가 가고 싶은 곳에 맞춰준다.", "score": { "Active": 0, "Passive": 1 } }
+        { "text": "맛집, 카페, 영화관 풀코스로 준비한다.", "score": { "Hot": 1, "Cool": 0 } },
+        { "text": "만나서 기분 따라 정하는 게 좋다.", "score": { "Hot": 0, "Cool": 1 } }
       ]
     },
     {
       "id": 3,
-      "text": "연인과 다퉜을 때 나는?",
+      "text": "스킨십 진도는?",
       "options": [
-        { "text": "그 자리에서 바로 풀고 끝내야 한다.", "score": { "Active": 1, "Passive": 0 } },
-        { "text": "생각할 시간이 필요하다. 잠시 혼자 있는다.", "score": { "Active": 0, "Passive": 1 } }
+        { "text": "마음 가는 대로! 빠르면 빠를수록 좋다.", "score": { "Hot": 1, "Cool": 0 } },
+        { "text": "천천히 알아가면서 조심스럽게.", "score": { "Hot": 0, "Cool": 1 } }
       ]
     },
     {
       "id": 4,
-      "text": "좋아하는 사람이 생기면?",
+      "text": "연인의 이성 친구 문제, 허용 범위는?",
       "options": [
-        { "text": "밥 먹었어? 뭐해? 끊임없이 말을 건다.", "score": { "Active": 1, "Passive": 0 } },
-        { "text": "주변을 맴돌며 그 사람이 먼저 말 걸길 기다린다.", "score": { "Active": 0, "Passive": 1 } }
+        { "text": "단둘이 밥 먹기 절대 불가! 질투 폭발!", "score": { "Hot": 1, "Cool": 0 } },
+        { "text": "친구인데 뭐 어때? 쿨하게 믿어준다.", "score": { "Hot": 0, "Cool": 1 } }
       ]
     },
     {
       "id": 5,
-      "text": "기념일 선물 준비 스타일은?",
+      "text": "연인과 싸우고 나서",
       "options": [
-        { "text": "거대하고 화려한 이벤트! 감동받아라!", "score": { "Active": 1, "Passive": 0 } },
-        { "text": "소소하지만 진심이 담긴 편지와 선물.", "score": { "Active": 0, "Passive": 1 } }
+        { "text": "당장 만나서 풀거나 전화로 끝장을 본다.", "score": { "Hot": 1, "Cool": 0 } },
+        { "text": "생각할 시간을 갖고 나중에 대화한다.", "score": { "Hot": 0, "Cool": 1 } }
       ]
     },
     {
       "id": 6,
-      "text": "연인의 이성친구 문제에 대해",
+      "text": "기념일을 챙기는 스타일은?",
       "options": [
-        { "text": "절대 안 돼! 단호하게 선을 긋는다.", "score": { "Active": 1, "Passive": 0 } },
-        { "text": "믿으니까 괜찮아. 쿨하게 넘긴다.", "score": { "Active": 0, "Passive": 1 } }
+        { "text": "00일, 생일, 발렌타인... 다 챙겨야지!", "score": { "Hot": 1, "Cool": 0 } },
+        { "text": "생일 정도만 챙기면 되지 않나?", "score": { "Hot": 0, "Cool": 1 } }
       ]
     },
     {
       "id": 7,
-      "text": "스킨십 진도는?",
+      "text": "애정 표현은 얼마나 자주?",
       "options": [
-        { "text": "빠를수록 좋다. 불타오르는 사랑!", "score": { "Active": 1, "Passive": 0 } },
-        { "text": "천천히 서로를 알아가며 진행하고 싶다.", "score": { "Active": 0, "Passive": 1 } }
+        { "text": "눈만 마주치면 사랑한다고 말한다.", "score": { "Hot": 1, "Cool": 0 } },
+        { "text": "말보다는 행동으로 은근하게 보여준다.", "score": { "Hot": 0, "Cool": 1 } }
       ]
     },
     {
       "id": 8,
-      "text": "연인이 우울해 보이면?",
+      "text": "연인이 연락이 안 된다면?",
       "options": [
-        { "text": "드라이브 가자! 맛있는 거 먹자! 밖으로 데리고 나간다.", "score": { "Active": 1, "Passive": 0 } },
-        { "text": "옆에 가만히 있어주며 이야기를 들어준다.", "score": { "Active": 0, "Passive": 1 } }
+        { "text": "무슨 일 있나? 계속 전화를 건다.", "score": { "Hot": 1, "Cool": 0 } },
+        { "text": "바쁜가 보네. 연락 올 때까지 기다린다.", "score": { "Hot": 0, "Cool": 1 } }
       ]
     },
     {
       "id": 9,
-      "text": "이별 후 나의 모습은?",
+      "text": "이상형을 만났을 때",
       "options": [
-        { "text": "친구들 만나서 술 마시고 펑펑 울며 털어낸다.", "score": { "Active": 1, "Passive": 0 } },
-        { "text": "혼자 방에 틀어박혀 추억을 정리한다.", "score": { "Active": 0, "Passive": 1 } }
+        { "text": "놓치면 후회해! 직진 플러팅!", "score": { "Hot": 1, "Cool": 0 } },
+        { "text": "멀리서 지켜보며 기회를 엿본다.", "score": { "Hot": 0, "Cool": 1 } }
       ]
     },
     {
       "id": 10,
-      "text": "나의 연애 로망은?",
+      "text": "나에게 사랑이란?",
       "options": [
-        { "text": "영화 속 주인공처럼 열정적이고 드라마틱한 사랑", "score": { "Active": 1, "Passive": 0 } },
-        { "text": "오래된 친구처럼 편안하고 잔잔한 사랑", "score": { "Active": 0, "Passive": 1 } }
+        { "text": "인생의 전부! 불꽃 같은 열정!", "score": { "Hot": 1, "Cool": 0 } },
+        { "text": "인생의 동반자! 잔잔한 안정감!", "score": { "Hot": 0, "Cool": 1 } }
       ]
     }
   ],
   "results": [
     {
-      "type": "PASSIONATE",
-      "title": "불도저 사랑꾼",
-      "description": "좋으면 직진! 솔직하고 열정적인 사랑을 하는 타입입니다. 당신의 뜨거운 에너지는 상대방을 사로잡는 매력이 있어요.",
-      "traits": ["솔직함", "적극적", "리드함"],
-      "tags": ["직진남녀", "에너지갑", "리더십"],
+      "type": "FIRE",
+      "title": "불타는 로맨티스트",
+      "description": "사랑 없이는 못 살아! 당신의 연애는 언제나 뜨겁고 정열적입니다. 표현도 확실하고 리드하는 것을 좋아하는 직진남녀!",
+      "traits": ["열정적", "적극적", "솔직함"],
+      "tags": ["직진러", "사랑꾼", "금사빠"],
       "graph": [
-        { "label": "적극성", "value": 95 },
-        { "label": "표현력", "value": 90 },
-        { "label": "주도력", "value": 85 },
-        { "label": "눈치", "value": 40 },
-        { "label": "인내심", "value": 50 }
+        { "label": "열정", "value": 98 },
+        { "label": "질투", "value": 90 },
+        { "label": "표현력", "value": 95 },
+        { "label": "속도", "value": 90 },
+        { "label": "안정성", "value": 40 }
       ]
     },
     {
-      "type": "CONSIDERATE",
-      "title": "다정다감 배려왕",
-      "description": "상대방의 감정을 세심하게 살피는 배려의 아이콘! 편안하고 안정적인 연애를 선호하며 상대방에게 힐링이 되어줍니다.",
-      "traits": ["섬세함", "경청", "배려심"],
-      "tags": ["힐링", "안정감", "평화주의자"],
+      "type": "WATER",
+      "title": "쿨워터 향기 나는 칠린러",
+      "description": "연애도 인생의 일부일 뿐. 뜨거운 열정보다는 편안한 안정을 추구하는 당신은 쿨하고 어른스러운 연애를 선호합니다.",
+      "traits": ["이성적", "신중함", "배려심"],
+      "tags": ["슬로우", "유교걸/보이", "어른연애"],
       "graph": [
-        { "label": "적극성", "value": 40 },
-        { "label": "표현력", "value": 60 },
-        { "label": "주도력", "value": 45 },
-        { "label": "눈치", "value": 95 },
-        { "label": "인내심", "value": 90 }
+        { "label": "열정", "value": 40 },
+        { "label": "질투", "value": 30 },
+        { "label": "표현력", "value": 50 },
+        { "label": "속도", "value": 30 },
+        { "label": "안정성", "value": 95 }
       ]
     }
   ]

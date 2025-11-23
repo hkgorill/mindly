@@ -3,7 +3,7 @@
   "title": "AI MBTI Lite",
   "description": "복잡한 질문은 No! 핵심 질문 12개로 알아보는 나의 성격 유형",
   "category": "성격",
-  "imageUrl": "/images/mbti-lite.png",
+  "imageUrl": "/images/mbti-lite.svg",
   "questions": [
     {
       "id": 1,

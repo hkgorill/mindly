@@ -3,7 +3,7 @@
   "title": "나의 퍼스널 컬러 성향",
   "description": "당신이 끌리는 색깔에는 성격이 숨어있어요. 10가지 선택으로 알아보는 나의 숨겨진 매력!",
   "category": "취향",
-  "imageUrl": "/images/color-preference.png",
+  "imageUrl": "/images/color-preference.svg",
   "questions": [
     {
       "id": 1,

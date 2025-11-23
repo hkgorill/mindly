@@ -1,118 +1,118 @@
 {
   "id": "emotional-processing",
-  "title": "감정 처리 성향",
-  "description": "나는 감정을 겉으로 드러내는 편일까, 속으로 삭이는 편일까? 10가지 질문으로 나의 감정 소화 방식을 알아봅니다.",
+  "title": "감정 처리 성향 검사",
+  "description": "힘든 일이 생겼을 때 나는 어떻게 대처할까? 10가지 질문으로 나의 감정 처리 방식을 진단합니다.",
   "category": "성격",
-  "imageUrl": "/images/emotional-processing.png",
+  "imageUrl": "/images/emotional-processing.svg",
   "questions": [
     {
       "id": 1,
-      "text": "화가 머리 끝까지 났을 때 나는?",
+      "text": "화가 나는 일이 생겼을 때 나는?",
       "options": [
-        { "text": "일단 말로 뱉거나 표정으로 다 드러난다.", "score": { "Out": 1, "In": 0 } },
-        { "text": "꾹 참는다. 나중에 혼자 삭힌다.", "score": { "Out": 0, "In": 1 } }
+        { "text": "바로 말하거나 표정으로 드러낸다.", "score": { "Express": 1, "Hold": 0 } },
+        { "text": "일단 참고 속으로 삭힌다.", "score": { "Express": 0, "Hold": 1 } }
       ]
     },
     {
       "id": 2,
-      "text": "슬픈 영화를 볼 때?",
+      "text": "슬픈 영화를 볼 때 나는?",
       "options": [
-        { "text": "펑펑 운다. 눈물 콧물 다 뺀다.", "score": { "Out": 1, "In": 0 } },
-        { "text": "슬프지만 눈물은 잘 안 난다.", "score": { "Out": 0, "In": 1 } }
+        { "text": "주인공에 이입해서 펑펑 운다.", "score": { "Express": 1, "Hold": 0 } },
+        { "text": "슬프지만 눈물은 잘 안 난다.", "score": { "Express": 0, "Hold": 1 } }
       ]
     },
     {
       "id": 3,
-      "text": "힘든 일이 생기면?",
+      "text": "고민이 생기면?",
       "options": [
-        { "text": "친구들에게 털어놓고 위로받는다.", "score": { "Out": 1, "In": 0 } },
-        { "text": "혼자 조용히 생각 정리할 시간이 필요하다.", "score": { "Out": 0, "In": 1 } }
+        { "text": "친구들에게 전화해서 털어놓는다.", "score": { "Express": 1, "Hold": 0 } },
+        { "text": "혼자 해결책을 생각하거나 일기를 쓴다.", "score": { "Express": 0, "Hold": 1 } }
       ]
     },
     {
       "id": 4,
-      "text": "기쁜 일이 생겼을 때",
+      "text": "누군가 나를 서운하게 했을 때",
       "options": [
-        { "text": "SNS에 올리고 동네방네 자랑한다.", "score": { "Out": 1, "In": 0 } },
-        { "text": "가까운 사람들에게만 소소하게 알린다.", "score": { "Out": 0, "In": 1 } }
+        { "text": "\"너 아까 왜 그랬어?\"라고 묻는다.", "score": { "Express": 1, "Hold": 0 } },
+        { "text": "시간이 지나면 괜찮아지겠지 하고 넘긴다.", "score": { "Express": 0, "Hold": 1 } }
       ]
     },
     {
       "id": 5,
-      "text": "누군가 나를 서운하게 했을 때",
+      "text": "기분이 안 좋을 때 표정 관리는?",
       "options": [
-        { "text": "\"나 서운해!\"라고 바로 말한다.", "score": { "Out": 1, "In": 0 } },
-        { "text": "티 안 내려고 노력하지만 행동이 차가워진다.", "score": { "Out": 0, "In": 1 } }
+        { "text": "얼굴에 기분 나쁜 티가 다 난다.", "score": { "Express": 1, "Hold": 0 } },
+        { "text": "남들은 내가 기분 나쁜지 잘 모른다.", "score": { "Express": 0, "Hold": 1 } }
       ]
     },
     {
       "id": 6,
-      "text": "공공장소에서 감동적인 장면을 목격했다.",
+      "text": "엄청 기쁜 일이 생겼을 때!",
       "options": [
-        { "text": "남들 시선 상관없이 눈물이 고인다.", "score": { "Out": 1, "In": 0 } },
-        { "text": "속으로만 감동하고 표정 관리를 한다.", "score": { "Out": 0, "In": 1 } }
+        { "text": "동네방네 자랑하고 소리 지른다.", "score": { "Express": 1, "Hold": 0 } },
+        { "text": "속으로 '오 예쓰!' 하고 조용히 기뻐한다.", "score": { "Express": 0, "Hold": 1 } }
       ]
     },
     {
       "id": 7,
-      "text": "나의 표정은",
+      "text": "다른 사람의 감정에 대해서는?",
       "options": [
-        { "text": "숨길 수 없다. 기분이 얼굴에 다 쓰여있다.", "score": { "Out": 1, "In": 0 } },
-        { "text": "포커페이스다. 무슨 생각 하는지 모르겠다는 말 듣는다.", "score": { "Out": 0, "In": 1 } }
+        { "text": "잘 캐치하고 반응도 크다.", "score": { "Express": 1, "Hold": 0 } },
+        { "text": "둔감한 편이거나 알아도 모른 척한다.", "score": { "Express": 0, "Hold": 1 } }
       ]
     },
     {
       "id": 8,
-      "text": "스트레스를 푸는 방법은?",
+      "text": "스트레스 해소 방법은?",
       "options": [
-        { "text": "소리지르기, 노래방 가기, 수다 떨기", "score": { "Out": 1, "In": 0 } },
-        { "text": "명상, 독서, 잠자기", "score": { "Out": 0, "In": 1 } }
+        { "text": "수다 떨기, 노래방 가기, 매운 거 먹기", "score": { "Express": 1, "Hold": 0 } },
+        { "text": "잠자기, 명상하기, 조용히 산책하기", "score": { "Express": 0, "Hold": 1 } }
       ]
     },
     {
       "id": 9,
-      "text": "연인에게 사랑을 표현할 때",
+      "text": "과거의 실수가 떠오르면?",
       "options": [
-        { "text": "말과 스킨십으로 적극적으로 표현한다.", "score": { "Out": 1, "In": 0 } },
-        { "text": "은근하게 챙겨주며 마음을 전한다.", "score": { "Out": 0, "In": 1 } }
+        { "text": "\"아악! 이불킥!\" 소리 내서 괴로워한다.", "score": { "Express": 1, "Hold": 0 } },
+        { "text": "조용히 눈을 질끈 감고 잊으려 노력한다.", "score": { "Express": 0, "Hold": 1 } }
       ]
     },
     {
       "id": 10,
-      "text": "과거의 흑역사가 떠오르면",
+      "text": "나의 감정 기복은?",
       "options": [
-        { "text": "\"으아악!\" 소리 지르며 이불을 찬다.", "score": { "Out": 1, "In": 0 } },
-        { "text": "조용히 눈을 감고 잊으려 노력한다.", "score": { "Out": 0, "In": 1 } }
+        { "text": "롤러코스터처럼 오르락내리락한다.", "score": { "Express": 1, "Hold": 0 } },
+        { "text": "잔잔한 호수처럼 평온한 편이다.", "score": { "Express": 0, "Hold": 1 } }
       ]
     }
   ],
   "results": [
     {
       "type": "VOLCANO",
-      "title": "솔직한 화산",
-      "description": "감정을 담아두지 않고 시원하게 표현하는 타입! 뒤끝이 없고 투명한 성격이라 주변 사람들이 당신의 기분을 쉽게 알 수 있어요.",
-      "traits": ["솔직함", "시원함", "표현력"],
-      "tags": ["뒤끝없음", "직설적", "투명함"],
+      "title": "솔직한 활화산",
+      "description": "감정을 숨기지 않고 시원하게 표현하는 타입! 뒤끝이 없고 솔직해서 주변 사람들에게 '투명하다'는 소리를 듣겠군요.",
+      "traits": ["솔직함", "열정적", "시원함"],
+      "tags": ["직진남녀", "투명인간", "표현왕"],
       "graph": [
         { "label": "표현력", "value": 95 },
-        { "label": "인내심", "value": 30 },
-        { "label": "공감", "value": 80 },
-        { "label": "회복탄력성", "value": 90 },
-        { "label": "눈치", "value": 50 }
+        { "label": "절제력", "value": 30 },
+        { "label": "공감력", "value": 90 },
+        { "label": "회복력", "value": 85 },
+        { "label": "안정성", "value": 40 }
       ]
     },
     {
-      "type": "LAKE",
-      "title": "고요한 호수",
-      "description": "감정을 속으로 깊이 삼키고 조절하는 타입입니다. 겉으로는 평온해 보이지만 속으로는 수많은 감정이 소용돌이치고 있을지도 몰라요.",
-      "traits": ["신중함", "절제", "차분함"],
-      "tags": ["포커페이스", "인내왕", "속깊음"],
+      "type": "ICEBERG",
+      "title": "깊은 바다 빙산",
+      "description": "겉으로는 침착해 보이지만 속은 깊은 감정의 바다를 품고 있어요. 감정을 절제하고 이성적으로 처리하는 능력이 뛰어납니다.",
+      "traits": ["침착함", "신중함", "어른스러움"],
+      "tags": ["포커페이스", "외유내강", "평화주의자"],
       "graph": [
         { "label": "표현력", "value": 30 },
-        { "label": "인내심", "value": 95 },
-        { "label": "공감", "value": 70 },
-        { "label": "회복탄력성", "value": 60 },
-        { "label": "눈치", "value": 90 }
+        { "label": "절제력", "value": 95 },
+        { "label": "공감력", "value": 70 },
+        { "label": "회복력", "value": 80 },
+        { "label": "안정성", "value": 90 }
       ]
     }
   ]
