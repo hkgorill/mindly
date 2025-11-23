@@ -1,0 +1,82 @@
+{
+  "id": "work-style",
+  "title": "나의 일하는 스타일",
+  "description": "나는 팀플형일까 독고다이형일까? 업무 상황에서 나의 강점을 찾아보세요.",
+  "category": "직업",
+  "imageUrl": "/images/work-style.png",
+  "questions": [
+    {
+      "id": 1,
+      "text": "새로운 프로젝트가 주어졌다. 가장 먼저 할 일은?",
+      "options": [
+        {
+          "text": "전체적인 그림과 목표부터 설정한다.",
+          "score": { "Vision": 1, "Detail": 0 }
+        },
+        {
+          "text": "세부적인 일정과 리소스부터 체크한다.",
+          "score": { "Vision": 0, "Detail": 1 }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "회의 시간에 나는?",
+      "options": [
+        {
+          "text": "적극적으로 아이디어를 내고 발언한다.",
+          "score": { "Speak": 1, "Listen": 0 }
+        },
+        {
+          "text": "다른 사람들의 의견을 듣고 정리한다.",
+          "score": { "Speak": 0, "Listen": 1 }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "데드라인이 코앞인데 일이 안 끝났다면?",
+      "options": [
+        {
+          "text": "퀄리티가 중요하지! 야근해서라도 완벽하게.",
+          "score": { "Quality": 1, "Speed": 0 }
+        },
+        {
+          "text": "일단 기한 맞추는 게 우선! 빠르게 마무리.",
+          "score": { "Quality": 0, "Speed": 1 }
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "type": "COMMANDER",
+      "title": "카리스마 리더",
+      "description": "큰 그림을 보고 팀을 이끄는 능력이 탁월해요. 명확한 목표 설정과 결단력으로 성과를 만들어내는 타입입니다.",
+      "traits": ["추진력", "결단력", "비전"],
+      "tags": ["리더십", "목표지향", "성과중심"],
+      "graph": [
+        { "label": "리더십", "value": 95 },
+        { "label": "기획력", "value": 90 },
+        { "label": "꼼꼼함", "value": 50 },
+        { "label": "소통", "value": 70 },
+        { "label": "순발력", "value": 80 }
+      ]
+    },
+    {
+      "type": "SUPPORTER",
+      "title": "든든한 서포터",
+      "description": "팀의 빈틈을 채워주고 조화를 이끌어내는 핵심 인재! 꼼꼼한 일 처리와 원활한 소통 능력으로 신뢰받는 타입입니다.",
+      "traits": ["성실함", "꼼꼼함", "협력"],
+      "tags": ["팀플레이어", "디테일", "책임감"],
+      "graph": [
+        { "label": "리더십", "value": 50 },
+        { "label": "기획력", "value": 60 },
+        { "label": "꼼꼼함", "value": 95 },
+        { "label": "소통", "value": 90 },
+        { "label": "순발력", "value": 60 }
+      ]
+    }
+  ]
+}
+

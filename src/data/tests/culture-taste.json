@@ -1,0 +1,68 @@
+{
+  "id": "culture-taste",
+  "title": "음악/영화 취향 분석",
+  "description": "플레이리스트와 왓챠 피드로 분석하는 나의 문화 DNA! 당신은 힙스터인가요, 대중픽인가요?",
+  "category": "취향",
+  "imageUrl": "/images/culture-taste.png",
+  "questions": [
+    {
+      "id": 1,
+      "text": "주로 찾아 듣는 음악 장르는?",
+      "options": [
+        {
+          "text": "남들 다 아는 건 싫어. 나만 아는 인디, 재즈!",
+          "score": { "Hip": 1, "Pop": 0 }
+        },
+        {
+          "text": "멜론 TOP 100이 최고지. 신나고 트렌디한 게 좋아!",
+          "score": { "Hip": 0, "Pop": 1 }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "인생 영화를 하나 꼽자면?",
+      "options": [
+        {
+          "text": "해석이 필요한 난해한 예술 영화나 독립 영화",
+          "score": { "Hip": 1, "Pop": 0 }
+        },
+        {
+          "text": "천만 관객 블록버스터나 달달한 로맨스 코미디",
+          "score": { "Hip": 0, "Pop": 1 }
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "type": "HIPSTER",
+      "title": "홍대병 말기 힙스터",
+      "description": "남들과 똑같은 건 질색! 독특하고 개성 있는 취향을 추구하는 예술가 타입입니다. 당신의 추천 리스트는 언제나 신선하네요.",
+      "traits": ["개성", "예술적", "독창성"],
+      "tags": ["마이너", "디깅", "취향확고"],
+      "graph": [
+        { "label": "대중성", "value": 10 },
+        { "label": "독창성", "value": 98 },
+        { "label": "예술성", "value": 95 },
+        { "label": "다양성", "value": 80 },
+        { "label": "트렌드", "value": 40 }
+      ]
+    },
+    {
+      "type": "MAINSTREAM",
+      "title": "트렌드 세터 대중픽",
+      "description": "사람들이 뭘 좋아하는지 정확히 아는 트렌드 리더! 유행에 민감하고 대중적인 감각이 뛰어나서 어디서든 공감대를 잘 형성해요.",
+      "traits": ["공감", "유행", "친근함"],
+      "tags": ["인싸", "유행선도", "공감요정"],
+      "graph": [
+        { "label": "대중성", "value": 98 },
+        { "label": "독창성", "value": 30 },
+        { "label": "예술성", "value": 50 },
+        { "label": "다양성", "value": 70 },
+        { "label": "트렌드", "value": 95 }
+      ]
+    }
+  ]
+}
+

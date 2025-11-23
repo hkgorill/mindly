@@ -1,0 +1,82 @@
+{
+  "id": "emotional-processing",
+  "title": "감정 처리 성향",
+  "description": "나는 감정을 겉으로 드러내는 편일까, 속으로 삭이는 편일까? 나의 감정 소화 방식을 알아봅니다.",
+  "category": "성격",
+  "imageUrl": "/images/emotional-processing.png",
+  "questions": [
+    {
+      "id": 1,
+      "text": "화가 머리 끝까지 났을 때 나는?",
+      "options": [
+        {
+          "text": "일단 말로 뱉거나 표정으로 다 드러난다.",
+          "score": { "Out": 1, "In": 0 }
+        },
+        {
+          "text": "꾹 참는다. 나중에 혼자 삭힌다.",
+          "score": { "Out": 0, "In": 1 }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "슬픈 영화를 볼 때?",
+      "options": [
+        {
+          "text": "펑펑 운다. 눈물 콧물 다 뺀다.",
+          "score": { "Out": 1, "In": 0 }
+        },
+        {
+          "text": "슬프지만 눈물은 잘 안 난다.",
+          "score": { "Out": 0, "In": 1 }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "힘든 일이 생기면?",
+      "options": [
+        {
+          "text": "친구들에게 털어놓고 위로받는다.",
+          "score": { "Out": 1, "In": 0 }
+        },
+        {
+          "text": "혼자 조용히 생각 정리할 시간이 필요하다.",
+          "score": { "Out": 0, "In": 1 }
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "type": "VOLCANO",
+      "title": "솔직한 화산",
+      "description": "감정을 담아두지 않고 시원하게 표현하는 타입! 뒤끝이 없고 투명한 성격이라 주변 사람들이 당신의 기분을 쉽게 알 수 있어요.",
+      "traits": ["솔직함", "시원함", "표현력"],
+      "tags": ["뒤끝없음", "직설적", "투명함"],
+      "graph": [
+        { "label": "표현력", "value": 95 },
+        { "label": "인내심", "value": 30 },
+        { "label": "공감", "value": 80 },
+        { "label": "회복탄력성", "value": 90 },
+        { "label": "눈치", "value": 50 }
+      ]
+    },
+    {
+      "type": "LAKE",
+      "title": "고요한 호수",
+      "description": "감정을 속으로 깊이 삼키고 조절하는 타입입니다. 겉으로는 평온해 보이지만 속으로는 수많은 감정이 소용돌이치고 있을지도 몰라요.",
+      "traits": ["신중함", "절제", "차분함"],
+      "tags": ["포커페이스", "인내왕", "속깊음"],
+      "graph": [
+        { "label": "표현력", "value": 30 },
+        { "label": "인내심", "value": 95 },
+        { "label": "공감", "value": 70 },
+        { "label": "회복탄력성", "value": 60 },
+        { "label": "눈치", "value": 90 }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,82 @@
+{
+  "id": "love-tension",
+  "title": "나의 연애 텐션 지수",
+  "description": "나는 연애할 때 어떤 스타일일까? 나의 텐션과 매력 포인트를 알아보세요!",
+  "category": "연애",
+  "imageUrl": "/images/love-tension.png",
+  "questions": [
+    {
+      "id": 1,
+      "text": "썸 타는 상대에게 연락이 왔다! 나의 반응은?",
+      "options": [
+        {
+          "text": "바로 답장! 기다렸다는 듯이 칼답한다.",
+          "score": { "Active": 1, "Passive": 0 }
+        },
+        {
+          "text": "밀당 좀 해볼까? 10분 뒤에 보낸다.",
+          "score": { "Active": 0, "Passive": 1 }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "데이트 장소를 정해야 한다면?",
+      "options": [
+        {
+          "text": "내가 핫플레이스 리스트 쫙 뽑아간다.",
+          "score": { "Lead": 1, "Follow": 0 }
+        },
+        {
+          "text": "상대가 가고 싶은 곳에 맞춰준다.",
+          "score": { "Lead": 0, "Follow": 1 }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "연인과 다퉜을 때 나는?",
+      "options": [
+        {
+          "text": "그 자리에서 바로 풀고 끝내야 한다.",
+          "score": { "Direct": 1, "Wait": 0 }
+        },
+        {
+          "text": "생각할 시간이 필요하다. 잠시 혼자 있는다.",
+          "score": { "Direct": 0, "Wait": 1 }
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "type": "PASSIONATE",
+      "title": "불도저 사랑꾼",
+      "description": "좋으면 직진! 솔직하고 열정적인 사랑을 하는 타입입니다. 당신의 뜨거운 에너지는 상대방을 사로잡는 매력이 있어요.",
+      "traits": ["솔직함", "적극적", "리드함"],
+      "tags": ["직진남녀", "에너지갑", "리더십"],
+      "graph": [
+        { "label": "적극성", "value": 95 },
+        { "label": "표현력", "value": 90 },
+        { "label": "주도력", "value": 85 },
+        { "label": "눈치", "value": 40 },
+        { "label": "인내심", "value": 50 }
+      ]
+    },
+    {
+      "type": "CONSIDERATE",
+      "title": "다정다감 배려왕",
+      "description": "상대방의 감정을 세심하게 살피는 배려의 아이콘! 편안하고 안정적인 연애를 선호하며 상대방에게 힐링이 되어줍니다.",
+      "traits": ["섬세함", "경청", "배려심"],
+      "tags": ["힐링", "안정감", "평화주의자"],
+      "graph": [
+        { "label": "적극성", "value": 40 },
+        { "label": "표현력", "value": 60 },
+        { "label": "주도력", "value": 45 },
+        { "label": "눈치", "value": 95 },
+        { "label": "인내심", "value": 90 }
+      ]
+    }
+  ]
+}
+

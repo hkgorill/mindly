@@ -1,0 +1,68 @@
+{
+  "id": "color-preference",
+  "title": "나의 퍼스널 컬러 성향",
+  "description": "당신이 끌리는 색깔에는 성격이 숨어있어요. 색채 심리학으로 알아보는 나의 숨겨진 매력!",
+  "category": "취향",
+  "imageUrl": "/images/color-preference.png",
+  "questions": [
+    {
+      "id": 1,
+      "text": "더 끌리는 옷 색깔 조합은?",
+      "options": [
+        {
+          "text": "베이지, 코랄, 브라운 등 따뜻하고 포근한 색",
+          "score": { "Warm": 1, "Cool": 0 }
+        },
+        {
+          "text": "네이비, 그레이, 화이트 등 시원하고 깔끔한 색",
+          "score": { "Warm": 0, "Cool": 1 }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "인테리어 소품을 고른다면?",
+      "options": [
+        {
+          "text": "아기자기하고 알록달록한 파스텔 톤",
+          "score": { "Warm": 1, "Cool": 0 }
+        },
+        {
+          "text": "모던하고 심플한 무채색 혹은 비비드한 원색",
+          "score": { "Warm": 0, "Cool": 1 }
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "type": "WARM",
+      "title": "햇살 머금은 봄",
+      "description": "따뜻하고 친근한 에너지를 가진 당신! 부드럽고 감성적인 분위기로 주변 사람들을 편안하게 만들어주는 매력이 있네요.",
+      "traits": ["친절함", "온화함", "사교적"],
+      "tags": ["웜톤", "인간복숭아", "러블리"],
+      "graph": [
+        { "label": "따뜻함", "value": 95 },
+        { "label": "친화력", "value": 90 },
+        { "label": "냉철함", "value": 20 },
+        { "label": "개성", "value": 60 },
+        { "label": "감성", "value": 95 }
+      ]
+    },
+    {
+      "type": "COOL",
+      "title": "세련된 도시의 겨울",
+      "description": "깔끔하고 지적인 이미지를 선호하는 당신! 냉철한 판단력과 세련된 감각을 지닌 차도녀/차도남 스타일이군요.",
+      "traits": ["시크함", "논리적", "깔끔함"],
+      "tags": ["쿨톤", "도시적", "미니멀"],
+      "graph": [
+        { "label": "따뜻함", "value": 30 },
+        { "label": "친화력", "value": 50 },
+        { "label": "냉철함", "value": 95 },
+        { "label": "개성", "value": 85 },
+        { "label": "감성", "value": 60 }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,68 @@
+{
+  "id": "self-understanding",
+  "title": "자기이해 지수",
+  "description": "나는 나에 대해 얼마나 잘 알고 있을까? 메타인지 능력을 테스트해보세요.",
+  "category": "감정",
+  "imageUrl": "/images/self-understanding.png",
+  "questions": [
+    {
+      "id": 1,
+      "text": "내가 지금 왜 기분이 안 좋은지 설명할 수 있다.",
+      "options": [
+        {
+          "text": "물론! 정확한 이유와 해결법을 안다.",
+          "score": { "Clear": 1, "Foggy": 0 }
+        },
+        {
+          "text": "그냥... 뭔가 찝찝한데 이유는 잘 모르겠다.",
+          "score": { "Clear": 0, "Foggy": 1 }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "나의 장점과 단점을 3가지씩 말하라고 하면?",
+      "options": [
+        {
+          "text": "3초 안에 바로 대답할 수 있다.",
+          "score": { "Clear": 1, "Foggy": 0 }
+        },
+        {
+          "text": "음... 글쎄... 한참 고민해야 나온다.",
+          "score": { "Clear": 0, "Foggy": 1 }
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "type": "MIRROR",
+      "title": "거울 속의 현자",
+      "description": "자신의 감정과 욕구를 명확하게 파악하고 있는 메타인지 고수! 내가 무엇을 원하고 무엇을 잘하는지 정확히 알고 있어 삶의 만족도가 높습니다.",
+      "traits": ["통찰력", "객관적", "확신"],
+      "tags": ["자기객관화", "자존감", "현명함"],
+      "graph": [
+        { "label": "자기인식", "value": 98 },
+        { "label": "표현력", "value": 90 },
+        { "label": "수용성", "value": 95 },
+        { "label": "일관성", "value": 90 },
+        { "label": "혼란", "value": 10 }
+      ]
+    },
+    {
+      "type": "EXPLORER",
+      "title": "안개 속의 탐험가",
+      "description": "아직 '진정한 나'를 찾아가는 중이군요. 내 감정이 헷갈릴 때가 많고 남들의 의견에 쉽게 흔들리기도 하지만, 그만큼 다양한 가능성을 열어두고 있어요.",
+      "traits": ["호기심", "가능성", "혼란"],
+      "tags": ["자아찾기", "성장중", "팔랑귀"],
+      "graph": [
+        { "label": "자기인식", "value": 40 },
+        { "label": "표현력", "value": 50 },
+        { "label": "수용성", "value": 70 },
+        { "label": "일관성", "value": 40 },
+        { "label": "혼란", "value": 80 }
+      ]
+    }
+  ]
+}
+

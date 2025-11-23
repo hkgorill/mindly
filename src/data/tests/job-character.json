@@ -1,0 +1,68 @@
+{
+  "id": "job-character",
+  "title": "직업 캐릭터 타입",
+  "description": "나는 회사에서 어떤 캐릭터일까? RPG 직업으로 알아보는 나의 업무 스타일!",
+  "category": "직업",
+  "imageUrl": "/images/job-character.png",
+  "questions": [
+    {
+      "id": 1,
+      "text": "업무 방식 중 더 선호하는 것은?",
+      "options": [
+        {
+          "text": "새로운 아이디어를 내고 기획하는 일",
+          "score": { "New": 1, "Stable": 0 }
+        },
+        {
+          "text": "정해진 매뉴얼대로 꼼꼼하게 처리하는 일",
+          "score": { "New": 0, "Stable": 1 }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "팀 프로젝트에서 내가 주로 맡는 역할은?",
+      "options": [
+        {
+          "text": "방향을 제시하고 판을 흔드는 역할",
+          "score": { "New": 1, "Stable": 0 }
+        },
+        {
+          "text": "자료를 정리하고 오류를 검수하는 역할",
+          "score": { "New": 0, "Stable": 1 }
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "type": "INNOVATOR",
+      "title": "창조적인 마법사",
+      "description": "남들이 생각하지 못한 기발한 아이디어로 문제를 해결합니다. 루틴한 업무보다는 새로운 도전과 변화를 즐기는 혁신가 타입!",
+      "traits": ["창의력", "독창성", "자유"],
+      "tags": ["아이디어뱅크", "기획자", "변화무쌍"],
+      "graph": [
+        { "label": "창의성", "value": 98 },
+        { "label": "안정성", "value": 20 },
+        { "label": "추진력", "value": 85 },
+        { "label": "꼼꼼함", "value": 30 },
+        { "label": "사교성", "value": 70 }
+      ]
+    },
+    {
+      "type": "GUARDIAN",
+      "title": "철벽의 수호기사",
+      "description": "맡은 일은 끝까지 책임지는 든든한 수호자! 꼼꼼함과 성실함으로 팀의 안정감을 담당하며, 실수를 용납하지 않는 완벽주의자입니다.",
+      "traits": ["성실함", "책임감", "정확성"],
+      "tags": ["믿을맨", "꼼꼼왕", "매뉴얼"],
+      "graph": [
+        { "label": "창의성", "value": 40 },
+        { "label": "안정성", "value": 95 },
+        { "label": "추진력", "value": 60 },
+        { "label": "꼼꼼함", "value": 98 },
+        { "label": "사교성", "value": 60 }
+      ]
+    }
+  ]
+}
+
