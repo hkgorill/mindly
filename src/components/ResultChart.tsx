@@ -47,3 +47,4 @@ export function ResultChart({ data }: ResultChartProps) {
 }
 
 
+

@@ -59,3 +59,4 @@ configs.forEach(({ name, colors, emoji }) => {
 console.log("Successfully generated 14 theme SVGs.");
 
 
+

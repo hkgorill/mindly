@@ -210,12 +210,6 @@ export default async function ResultPage({ params, searchParams }: PageProps) {
           ))}
         </div>
 
-        {/* Kakao AdFit */}
-        <KakaoAdFit 
-          pcUnit="DAN-gbh0aQ2W7ZLCGZYh"
-          mobileUnit="DAN-sMBJFVMEtB2DBKzN"
-          className="my-8"
-        />
 
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -238,6 +232,13 @@ export default async function ResultPage({ params, searchParams }: PageProps) {
             다른 테스트 보러가기
          </Link>
       </div>
+
+      {/* Result Page Ad */}
+      <KakaoAdFit 
+        pcUnit="DAN-gbh0aQ2W7ZLCGZYh"
+        mobileUnit="DAN-sMBJFVMEtB2DBKzN"
+        className="mt-12 mb-8"
+      />
     </div>
   );
 }

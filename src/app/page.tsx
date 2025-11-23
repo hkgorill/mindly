@@ -74,10 +74,10 @@ export default function Home() {
                 key={cat}
                 onClick={() => setSelectedCategory(cat)}
                 className={cn(
-                  "px-4 py-1.5 rounded-full text-sm font-medium transition-all",
+                  "px-4 py-1.5 rounded-full text-sm font-medium transition-all border",
                   selectedCategory === cat
-                    ? "bg-indigo-600 text-white shadow-md shadow-indigo-200"
-                    : "bg-white/50 text-slate-600 hover:bg-white hover:text-indigo-600"
+                    ? "bg-indigo-600 text-white border-indigo-600 shadow-md shadow-indigo-200"
+                    : "bg-white/80 text-slate-600 border-indigo-100 hover:bg-white hover:text-indigo-600 hover:border-indigo-200"
                 )}
               >
                 {cat}
@@ -92,7 +92,7 @@ export default function Home() {
               <Link
                 key={test.id}
                 href={`/test/${test.id}`}
-                className="group relative bg-white/60 backdrop-blur-xl border border-white/80 rounded-[2rem] p-8 transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-2xl hover:shadow-indigo-500/20 cursor-pointer overflow-hidden flex flex-col h-[320px]"
+                className="group relative bg-white/80 backdrop-blur-xl border border-indigo-100 shadow-sm rounded-[2rem] p-8 transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-2xl hover:shadow-indigo-500/20 cursor-pointer overflow-hidden flex flex-col h-[320px]"
                 style={{ animationDelay: `${index * 50}ms` }}
               >
                 {/* Soft Gradient Border Effect on Hover */}

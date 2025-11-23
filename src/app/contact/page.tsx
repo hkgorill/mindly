@@ -1,21 +1,49 @@
 "use client";
 
-import { Mail, MapPin, Phone, Send } from "lucide-react";
+import { Send } from "lucide-react";
 import { useState } from "react";
 
 export default function ContactPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: ""
+  });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { id, value } = e.target;
+    setFormData(prev => ({ ...prev, [id]: value }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate API call
-    setTimeout(() => {
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setIsSubmitted(true);
+        setFormData({ name: "", email: "", message: "" }); // Reset form
+      } else {
+        const errorData = await response.json();
+        console.error("Server Error:", errorData);
+        throw new Error("전송 실패");
+      }
+    } catch (error) {
+      console.error("Submission Error:", error);
+      alert("메시지 전송 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요.");
+    } finally {
       setIsSubmitting(false);
-      setIsSubmitted(true);
-    }, 1500);
+    }
   };
 
   return (
@@ -31,60 +59,7 @@ export default function ContactPage() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
-        
-        {/* Contact Info */}
-        <div className="space-y-8">
-          <div className="glass-card p-8 rounded-3xl border border-white/60 space-y-6">
-            <h3 className="text-xl font-bold text-slate-800">Contact Info</h3>
-            
-            <div className="space-y-6">
-              <div className="flex items-start gap-4">
-                <div className="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center text-indigo-600 shrink-0">
-                  <Mail size={20} />
-                </div>
-                <div>
-                  <p className="text-sm font-bold text-slate-700">Email</p>
-                  <p className="text-slate-600">hello@mindly.com</p>
-                  <p className="text-slate-600">support@mindly.com</p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 shrink-0">
-                  <MapPin size={20} />
-                </div>
-                <div>
-                  <p className="text-sm font-bold text-slate-700">Office</p>
-                  <p className="text-slate-600">Seoul, South Korea</p>
-                  <p className="text-slate-600 text-sm text-slate-500">Gangnam-gu, Teheran-ro 123</p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center text-pink-600 shrink-0">
-                  <Phone size={20} />
-                </div>
-                <div>
-                  <p className="text-sm font-bold text-slate-700">Phone</p>
-                  <p className="text-slate-600">+82 2-1234-5678</p>
-                  <p className="text-slate-500 text-xs">(Mon-Fri, 10am - 6pm)</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div className="rounded-3xl p-8 border border-white/20 bg-gradient-to-br from-indigo-600 to-purple-700 text-white shadow-lg">
-            <h3 className="text-xl font-bold mb-2">함께해요! 👋</h3>
-            <p className="text-indigo-100 mb-4">
-              Mindly와 함께 성장하고 싶은 열정적인 분들을 기다립니다.
-            </p>
-            <button className="px-4 py-2 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-lg transition-colors text-sm font-medium">
-              채용 공고 보기 &rarr;
-            </button>
-          </div>
-        </div>
-
+      <div className="max-w-2xl mx-auto">
         {/* Contact Form */}
         <div className="glass-card p-8 md:p-10 rounded-3xl border border-white/60 shadow-lg bg-white/40 backdrop-blur-md">
           {isSubmitted ? (
@@ -111,6 +86,8 @@ export default function ContactPage() {
                 <input
                   type="text"
                   id="name"
+                  value={formData.name}
+                  onChange={handleChange}
                   required
                   className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white/50 focus:bg-white focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all"
                   placeholder="홍길동"
@@ -122,6 +99,8 @@ export default function ContactPage() {
                 <input
                   type="email"
                   id="email"
+                  value={formData.email}
+                  onChange={handleChange}
                   required
                   className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white/50 focus:bg-white focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all"
                   placeholder="hello@example.com"
@@ -132,6 +111,8 @@ export default function ContactPage() {
                 <label htmlFor="message" className="block text-sm font-bold text-slate-700 mb-2">Message</label>
                 <textarea
                   id="message"
+                  value={formData.message}
+                  onChange={handleChange}
                   required
                   rows={5}
                   className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white/50 focus:bg-white focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all resize-none"
@@ -162,4 +143,3 @@ export default function ContactPage() {
     </div>
   );
 }
-

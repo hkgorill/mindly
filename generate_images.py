@@ -72,3 +72,4 @@ for name, colors, emoji in configs:
 print("Successfully generated 14 theme SVGs.")
 
 
+
