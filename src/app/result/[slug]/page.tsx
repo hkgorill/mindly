@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Share2, RotateCcw } from "lucide-react";
 import { ResultChart } from "@/components/ResultChart";
+import KakaoAdFit from "@/components/KakaoAdFit";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -208,6 +209,13 @@ export default async function ResultPage({ params, searchParams }: PageProps) {
             </span>
           ))}
         </div>
+
+        {/* Kakao AdFit */}
+        <KakaoAdFit 
+          pcUnit="DAN-gbh0aQ2W7ZLCGZYh"
+          mobileUnit="DAN-sMBJFVMEtB2DBKzN"
+          className="my-8"
+        />
 
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -5,6 +5,7 @@ import { getAllTests } from "@/lib/tests";
 import { ArrowRight, Sparkles, Search } from "lucide-react";
 import { useState, useMemo } from "react";
 import { cn } from "@/lib/utils";
+import KakaoAdFit from "@/components/KakaoAdFit";
 
 export default function Home() {
   const allTests = getAllTests();
@@ -59,6 +60,13 @@ export default function Home() {
           />
         </div>
       </section>
+
+      {/* Main Page Ad */}
+      <KakaoAdFit 
+        pcUnit="DAN-C8DDIqgiiesqQtDg"
+        mobileUnit="DAN-8yJc4f6JD0KeYUMF"
+        className="py-4 animate-fade-in-up delay-200"
+      />
 
       {/* Tests Section */}
       <section className="animate-fade-in-up delay-300">
