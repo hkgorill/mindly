@@ -61,12 +61,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Main Page Ad */}
-      <KakaoAdFit 
-        pcUnit="DAN-C8DDIqgiiesqQtDg"
-        mobileUnit="DAN-8yJc4f6JD0KeYUMF"
-        className="py-4 animate-fade-in-up delay-200"
-      />
 
       {/* Tests Section */}
       <section className="animate-fade-in-up delay-300">
@@ -94,44 +88,53 @@ export default function Home() {
 
         {filteredTests.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredTests.map((test) => (
+            {filteredTests.map((test, index) => (
               <Link
                 key={test.id}
                 href={`/test/${test.id}`}
-                className="group relative bg-white/40 backdrop-blur-md border border-white/50 rounded-3xl p-6 hover:bg-white/60 transition-all hover:scale-[1.02] hover:shadow-xl cursor-pointer overflow-hidden"
+                className="group relative bg-white/60 backdrop-blur-xl border border-white/80 rounded-[2rem] p-8 transition-all duration-300 hover:scale-[1.03] hover:-translate-y-1 hover:shadow-2xl hover:shadow-indigo-500/20 cursor-pointer overflow-hidden flex flex-col h-[320px]"
+                style={{ animationDelay: `${index * 50}ms` }}
               >
-                {/* Background Image Decoration */}
-                {test.imageUrl && (
-                  <div className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-500">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={test.imageUrl} alt="" className="w-full h-full object-cover blur-xl scale-150" />
-                  </div>
-                )}
+                {/* Soft Gradient Border Effect on Hover */}
+                <div className="absolute inset-0 rounded-[2rem] border-2 border-transparent group-hover:border-indigo-200/50 transition-colors pointer-events-none" />
+                
+                {/* Dynamic Background Blob */}
+                <div className="absolute -right-16 -top-16 w-64 h-64 bg-gradient-to-br from-indigo-100/50 to-purple-100/50 rounded-full blur-3xl group-hover:scale-125 group-hover:bg-indigo-200/40 transition-all duration-500" />
 
-                <div className="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 transition-opacity">
-                   {test.imageUrl ? (
-                     // eslint-disable-next-line @next/next/no-img-element
-                     <img src={test.imageUrl} alt="" className="w-24 h-24 object-contain" />
-                   ) : (
-                     <Sparkles size={100} className="text-indigo-600" />
-                   )}
-                </div>
-
-                <div className="relative z-10 space-y-4">
-                  <span className="inline-block px-3 py-1 rounded-lg bg-indigo-100 text-indigo-600 text-xs font-bold uppercase tracking-wider">
+                {/* Card Header: Category & Icon */}
+                <div className="relative z-10 flex justify-between items-start mb-6">
+                  <span className="inline-flex items-center px-3 py-1 rounded-full bg-white/80 border border-indigo-100 text-indigo-600 text-xs font-bold uppercase tracking-wider shadow-sm">
                     {test.category}
                   </span>
                   
-                  <h3 className="text-xl font-bold text-slate-800 group-hover:text-indigo-700 transition-colors">
-                    {test.title}
-                  </h3>
+                  {/* Icon with float animation */}
+                  <div className="w-16 h-16 flex items-center justify-center rounded-2xl bg-white/50 shadow-inner border border-white/60 group-hover:scale-110 transition-transform duration-300 group-hover:rotate-6">
+                     {test.imageUrl ? (
+                       // eslint-disable-next-line @next/next/no-img-element
+                       <img src={test.imageUrl} alt="" className="w-10 h-10 object-contain drop-shadow-md" />
+                     ) : (
+                       <Sparkles size={32} className="text-indigo-600" />
+                     )}
+                  </div>
+                </div>
+
+                {/* Card Content */}
+                <div className="relative z-10 flex-1 flex flex-col justify-between">
+                  <div className="space-y-3">
+                    <h3 className="text-2xl font-bold text-slate-800 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-indigo-600 group-hover:to-purple-600 transition-all duration-300 line-clamp-2">
+                      {test.title}
+                    </h3>
+                    <p className="text-slate-500 text-sm leading-relaxed line-clamp-2 group-hover:text-slate-600">
+                      {test.description}
+                    </p>
+                  </div>
                   
-                  <p className="text-slate-600 text-sm line-clamp-2">
-                    {test.description}
-                  </p>
-                  
-                  <div className="pt-4 flex items-center text-indigo-600 font-medium text-sm group-hover:translate-x-1 transition-transform">
-                    시작하기 <ArrowRight size={16} className="ml-1" />
+                  {/* CTA Button */}
+                  <div className="mt-6 flex items-center gap-2 text-sm font-bold text-slate-400 group-hover:text-indigo-600 transition-colors">
+                    <span className="w-8 h-8 rounded-full bg-white/50 flex items-center justify-center group-hover:bg-indigo-100 transition-colors">
+                      <ArrowRight size={14} className="group-hover:translate-x-0.5 transition-transform" />
+                    </span>
+                    <span>테스트 시작하기</span>
                   </div>
                 </div>
               </Link>
@@ -149,6 +152,13 @@ export default function Home() {
           </div>
         )}
       </section>
+
+      {/* Main Page Ad */}
+      <KakaoAdFit 
+        pcUnit="DAN-C8DDIqgiiesqQtDg"
+        mobileUnit="DAN-8yJc4f6JD0KeYUMF"
+        className="mt-12 mb-8 animate-fade-in-up delay-500"
+      />
     </div>
   );
 }
