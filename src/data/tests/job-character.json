@@ -1,7 +1,7 @@
 {
   "id": "job-character",
   "title": "직업 캐릭터 타입",
-  "description": "나는 회사에서 어떤 캐릭터일까? RPG 직업으로 알아보는 나의 업무 스타일!",
+  "description": "나는 회사에서 어떤 캐릭터일까? 10가지 질문으로 알아보는 RPG 직업별 나의 업무 스타일!",
   "category": "직업",
   "imageUrl": "/images/job-character.png",
   "questions": [
@@ -9,28 +9,80 @@
       "id": 1,
       "text": "업무 방식 중 더 선호하는 것은?",
       "options": [
-        {
-          "text": "새로운 아이디어를 내고 기획하는 일",
-          "score": { "New": 1, "Stable": 0 }
-        },
-        {
-          "text": "정해진 매뉴얼대로 꼼꼼하게 처리하는 일",
-          "score": { "New": 0, "Stable": 1 }
-        }
+        { "text": "새로운 아이디어를 내고 기획하는 일", "score": { "New": 1, "Stable": 0 } },
+        { "text": "정해진 매뉴얼대로 꼼꼼하게 처리하는 일", "score": { "New": 0, "Stable": 1 } }
       ]
     },
     {
       "id": 2,
       "text": "팀 프로젝트에서 내가 주로 맡는 역할은?",
       "options": [
-        {
-          "text": "방향을 제시하고 판을 흔드는 역할",
-          "score": { "New": 1, "Stable": 0 }
-        },
-        {
-          "text": "자료를 정리하고 오류를 검수하는 역할",
-          "score": { "New": 0, "Stable": 1 }
-        }
+        { "text": "방향을 제시하고 판을 흔드는 역할", "score": { "New": 1, "Stable": 0 } },
+        { "text": "자료를 정리하고 오류를 검수하는 역할", "score": { "New": 0, "Stable": 1 } }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "반복되는 단순 업무를 해야 한다면?",
+      "options": [
+        { "text": "지루해서 미쳐버릴 것 같다. 자동화하고 싶다.", "score": { "New": 1, "Stable": 0 } },
+        { "text": "마음 편하고 좋다. 기계처럼 처리한다.", "score": { "New": 0, "Stable": 1 } }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "회사의 시스템이나 규칙이 비효율적일 때",
+      "options": [
+        { "text": "바꾸자고 건의하거나 몰래 내 방식을 쓴다.", "score": { "New": 1, "Stable": 0 } },
+        { "text": "불편하지만 규칙이니까 따른다.", "score": { "New": 0, "Stable": 1 } }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "내가 듣고 싶은 칭찬은?",
+      "options": [
+        { "text": "\"어떻게 이런 생각을 했어? 천재 아냐?\"", "score": { "New": 1, "Stable": 0 } },
+        { "text": "\"역시 꼼꼼하네. 믿고 맡길 수 있어.\"", "score": { "New": 0, "Stable": 1 } }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "갑자기 출장이 잡혔다!",
+      "options": [
+        { "text": "오예! 바람도 쐬고 좋지~ (여행 기분)", "score": { "New": 1, "Stable": 0 } },
+        { "text": "익숙한 사무실이 좋은데... (부담감)", "score": { "New": 0, "Stable": 1 } }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "책상을 꾸민다면?",
+      "options": [
+        { "text": "좋아하는 피규어, 엽서 등으로 개성 있게", "score": { "New": 1, "Stable": 0 } },
+        { "text": "필수 사무용품만 깔끔하게 정렬", "score": { "New": 0, "Stable": 1 } }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "점심 메뉴 고르기 귀찮을 때",
+      "options": [
+        { "text": "아무거나 새로운 거 도전해볼까?", "score": { "New": 1, "Stable": 0 } },
+        { "text": "맨날 가던 김치찌개 집 가자.", "score": { "New": 0, "Stable": 1 } }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "내가 사장이라면?",
+      "options": [
+        { "text": "자유로운 복장과 수평적인 문화의 스타트업", "score": { "New": 1, "Stable": 0 } },
+        { "text": "체계적인 시스템과 복지가 갖춰진 대기업", "score": { "New": 0, "Stable": 1 } }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "은퇴 후의 삶은?",
+      "options": [
+        { "text": "세계 여행 다니며 안 해본 거 다 해보기", "score": { "New": 1, "Stable": 0 } },
+        { "text": "전원주택에서 텃밭 가꾸며 평화롭게 살기", "score": { "New": 0, "Stable": 1 } }
       ]
     }
   ],
@@ -65,4 +117,3 @@
     }
   ]
 }
-

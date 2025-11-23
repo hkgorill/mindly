@@ -1,7 +1,7 @@
 {
   "id": "self-understanding",
   "title": "자기이해 지수",
-  "description": "나는 나에 대해 얼마나 잘 알고 있을까? 메타인지 능력을 테스트해보세요.",
+  "description": "나는 나에 대해 얼마나 잘 알고 있을까? 10가지 메타인지 테스트로 나를 돌아보는 시간.",
   "category": "감정",
   "imageUrl": "/images/self-understanding.png",
   "questions": [
@@ -9,28 +9,80 @@
       "id": 1,
       "text": "내가 지금 왜 기분이 안 좋은지 설명할 수 있다.",
       "options": [
-        {
-          "text": "물론! 정확한 이유와 해결법을 안다.",
-          "score": { "Clear": 1, "Foggy": 0 }
-        },
-        {
-          "text": "그냥... 뭔가 찝찝한데 이유는 잘 모르겠다.",
-          "score": { "Clear": 0, "Foggy": 1 }
-        }
+        { "text": "물론! 정확한 이유와 해결법을 안다.", "score": { "Clear": 1, "Foggy": 0 } },
+        { "text": "그냥... 뭔가 찝찝한데 이유는 잘 모르겠다.", "score": { "Clear": 0, "Foggy": 1 } }
       ]
     },
     {
       "id": 2,
       "text": "나의 장점과 단점을 3가지씩 말하라고 하면?",
       "options": [
-        {
-          "text": "3초 안에 바로 대답할 수 있다.",
-          "score": { "Clear": 1, "Foggy": 0 }
-        },
-        {
-          "text": "음... 글쎄... 한참 고민해야 나온다.",
-          "score": { "Clear": 0, "Foggy": 1 }
-        }
+        { "text": "3초 안에 바로 대답할 수 있다.", "score": { "Clear": 1, "Foggy": 0 } },
+        { "text": "음... 글쎄... 한참 고민해야 나온다.", "score": { "Clear": 0, "Foggy": 1 } }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "나는 내가 무엇을 좋아하고 싫어하는지",
+      "options": [
+        { "text": "확실하게 알고 있다. 취향이 뚜렷하다.", "score": { "Clear": 1, "Foggy": 0 } },
+        { "text": "잘 모르겠다. 남들이 좋다고 하면 좋은 것 같다.", "score": { "Clear": 0, "Foggy": 1 } }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "1년 뒤, 5년 뒤 나의 모습을 상상할 수 있다.",
+      "options": [
+        { "text": "구체적인 목표와 이미지가 그려진다.", "score": { "Clear": 1, "Foggy": 0 } },
+        { "text": "하루살이 인생... 당장 내일도 모르겠다.", "score": { "Clear": 0, "Foggy": 1 } }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "다른 사람이 나를 평가할 때",
+      "options": [
+        { "text": "\"맞아, 나 그런 면이 있지\" 하고 수긍한다.", "score": { "Clear": 1, "Foggy": 0 } },
+        { "text": "\"내가? 정말?\" 하며 낯설어한다.", "score": { "Clear": 0, "Foggy": 1 } }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "중요한 선택을 할 때 나는",
+      "options": [
+        { "text": "내 판단을 믿고 스스로 결정한다.", "score": { "Clear": 1, "Foggy": 0 } },
+        { "text": "주변 사람들에게 물어보고 결정해달라고 한다.", "score": { "Clear": 0, "Foggy": 1 } }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "감정이 격해졌을 때 나는",
+      "options": [
+        { "text": "내가 지금 흥분했구나, 알아차리고 멈춘다.", "score": { "Clear": 1, "Foggy": 0 } },
+        { "text": "감정에 휩쓸려 행동하고 나중에 후회한다.", "score": { "Clear": 0, "Foggy": 1 } }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "나에게 어울리는 옷 스타일이나 머리 모양을",
+      "options": [
+        { "text": "잘 알고 있다. 실패가 거의 없다.", "score": { "Clear": 1, "Foggy": 0 } },
+        { "text": "잘 모른다. 유행 따라가다 망한 적 많다.", "score": { "Clear": 0, "Foggy": 1 } }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "나는 언제 가장 행복한지",
+      "options": [
+        { "text": "정확히 안다. (예: 샤워 후 맥주 한 잔)", "score": { "Clear": 1, "Foggy": 0 } },
+        { "text": "글쎄... 행복이 뭔지 잘 모르겠다.", "score": { "Clear": 0, "Foggy": 1 } }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "이 테스트의 결과가 어떻게 나올지",
+      "options": [
+        { "text": "대충 예상이 간다.", "score": { "Clear": 1, "Foggy": 0 } },
+        { "text": "전혀 모르겠다. 궁금하다.", "score": { "Clear": 0, "Foggy": 1 } }
       ]
     }
   ],
@@ -65,4 +117,3 @@
     }
   ]
 }
-

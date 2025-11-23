@@ -1,7 +1,7 @@
 {
   "id": "love-tension",
   "title": "나의 연애 텐션 지수",
-  "description": "나는 연애할 때 어떤 스타일일까? 나의 텐션과 매력 포인트를 알아보세요!",
+  "description": "나는 연애할 때 어떤 스타일일까? 10가지 상황으로 알아보는 나의 연애 텐션!",
   "category": "연애",
   "imageUrl": "/images/love-tension.png",
   "questions": [
@@ -9,42 +9,80 @@
       "id": 1,
       "text": "썸 타는 상대에게 연락이 왔다! 나의 반응은?",
       "options": [
-        {
-          "text": "바로 답장! 기다렸다는 듯이 칼답한다.",
-          "score": { "Active": 1, "Passive": 0 }
-        },
-        {
-          "text": "밀당 좀 해볼까? 10분 뒤에 보낸다.",
-          "score": { "Active": 0, "Passive": 1 }
-        }
+        { "text": "바로 답장! 기다렸다는 듯이 칼답한다.", "score": { "Active": 1, "Passive": 0 } },
+        { "text": "밀당 좀 해볼까? 10분 뒤에 보낸다.", "score": { "Active": 0, "Passive": 1 } }
       ]
     },
     {
       "id": 2,
       "text": "데이트 장소를 정해야 한다면?",
       "options": [
-        {
-          "text": "내가 핫플레이스 리스트 쫙 뽑아간다.",
-          "score": { "Lead": 1, "Follow": 0 }
-        },
-        {
-          "text": "상대가 가고 싶은 곳에 맞춰준다.",
-          "score": { "Lead": 0, "Follow": 1 }
-        }
+        { "text": "내가 핫플레이스 리스트 쫙 뽑아간다.", "score": { "Active": 1, "Passive": 0 } },
+        { "text": "상대가 가고 싶은 곳에 맞춰준다.", "score": { "Active": 0, "Passive": 1 } }
       ]
     },
     {
       "id": 3,
       "text": "연인과 다퉜을 때 나는?",
       "options": [
-        {
-          "text": "그 자리에서 바로 풀고 끝내야 한다.",
-          "score": { "Direct": 1, "Wait": 0 }
-        },
-        {
-          "text": "생각할 시간이 필요하다. 잠시 혼자 있는다.",
-          "score": { "Direct": 0, "Wait": 1 }
-        }
+        { "text": "그 자리에서 바로 풀고 끝내야 한다.", "score": { "Active": 1, "Passive": 0 } },
+        { "text": "생각할 시간이 필요하다. 잠시 혼자 있는다.", "score": { "Active": 0, "Passive": 1 } }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "좋아하는 사람이 생기면?",
+      "options": [
+        { "text": "밥 먹었어? 뭐해? 끊임없이 말을 건다.", "score": { "Active": 1, "Passive": 0 } },
+        { "text": "주변을 맴돌며 그 사람이 먼저 말 걸길 기다린다.", "score": { "Active": 0, "Passive": 1 } }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "기념일 선물 준비 스타일은?",
+      "options": [
+        { "text": "거대하고 화려한 이벤트! 감동받아라!", "score": { "Active": 1, "Passive": 0 } },
+        { "text": "소소하지만 진심이 담긴 편지와 선물.", "score": { "Active": 0, "Passive": 1 } }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "연인의 이성친구 문제에 대해",
+      "options": [
+        { "text": "절대 안 돼! 단호하게 선을 긋는다.", "score": { "Active": 1, "Passive": 0 } },
+        { "text": "믿으니까 괜찮아. 쿨하게 넘긴다.", "score": { "Active": 0, "Passive": 1 } }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "스킨십 진도는?",
+      "options": [
+        { "text": "빠를수록 좋다. 불타오르는 사랑!", "score": { "Active": 1, "Passive": 0 } },
+        { "text": "천천히 서로를 알아가며 진행하고 싶다.", "score": { "Active": 0, "Passive": 1 } }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "연인이 우울해 보이면?",
+      "options": [
+        { "text": "드라이브 가자! 맛있는 거 먹자! 밖으로 데리고 나간다.", "score": { "Active": 1, "Passive": 0 } },
+        { "text": "옆에 가만히 있어주며 이야기를 들어준다.", "score": { "Active": 0, "Passive": 1 } }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "이별 후 나의 모습은?",
+      "options": [
+        { "text": "친구들 만나서 술 마시고 펑펑 울며 털어낸다.", "score": { "Active": 1, "Passive": 0 } },
+        { "text": "혼자 방에 틀어박혀 추억을 정리한다.", "score": { "Active": 0, "Passive": 1 } }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "나의 연애 로망은?",
+      "options": [
+        { "text": "영화 속 주인공처럼 열정적이고 드라마틱한 사랑", "score": { "Active": 1, "Passive": 0 } },
+        { "text": "오래된 친구처럼 편안하고 잔잔한 사랑", "score": { "Active": 0, "Passive": 1 } }
       ]
     }
   ],
@@ -79,4 +117,3 @@
     }
   ]
 }
-

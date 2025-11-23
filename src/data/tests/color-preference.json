@@ -1,7 +1,7 @@
 {
   "id": "color-preference",
   "title": "나의 퍼스널 컬러 성향",
-  "description": "당신이 끌리는 색깔에는 성격이 숨어있어요. 색채 심리학으로 알아보는 나의 숨겨진 매력!",
+  "description": "당신이 끌리는 색깔에는 성격이 숨어있어요. 10가지 선택으로 알아보는 나의 숨겨진 매력!",
   "category": "취향",
   "imageUrl": "/images/color-preference.png",
   "questions": [
@@ -9,28 +9,80 @@
       "id": 1,
       "text": "더 끌리는 옷 색깔 조합은?",
       "options": [
-        {
-          "text": "베이지, 코랄, 브라운 등 따뜻하고 포근한 색",
-          "score": { "Warm": 1, "Cool": 0 }
-        },
-        {
-          "text": "네이비, 그레이, 화이트 등 시원하고 깔끔한 색",
-          "score": { "Warm": 0, "Cool": 1 }
-        }
+        { "text": "베이지, 코랄, 브라운 등 따뜻하고 포근한 색", "score": { "Warm": 1, "Cool": 0 } },
+        { "text": "네이비, 그레이, 화이트 등 시원하고 깔끔한 색", "score": { "Warm": 0, "Cool": 1 } }
       ]
     },
     {
       "id": 2,
       "text": "인테리어 소품을 고른다면?",
       "options": [
-        {
-          "text": "아기자기하고 알록달록한 파스텔 톤",
-          "score": { "Warm": 1, "Cool": 0 }
-        },
-        {
-          "text": "모던하고 심플한 무채색 혹은 비비드한 원색",
-          "score": { "Warm": 0, "Cool": 1 }
-        }
+        { "text": "아기자기하고 알록달록한 파스텔 톤", "score": { "Warm": 1, "Cool": 0 } },
+        { "text": "모던하고 심플한 무채색 혹은 비비드한 원색", "score": { "Warm": 0, "Cool": 1 } }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "좋아하는 계절의 분위기는?",
+      "options": [
+        { "text": "꽃이 피는 봄이나 단풍이 드는 가을", "score": { "Warm": 1, "Cool": 0 } },
+        { "text": "청량한 여름 바다나 눈 내리는 겨울", "score": { "Warm": 0, "Cool": 1 } }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "액세서리를 한다면?",
+      "options": [
+        { "text": "고급스러운 골드나 로즈골드", "score": { "Warm": 1, "Cool": 0 } },
+        { "text": "세련된 실버나 화이트골드", "score": { "Warm": 0, "Cool": 1 } }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "카페에서 더 좋아하는 조명은?",
+      "options": [
+        { "text": "은은하고 노란빛이 도는 아늑한 조명", "score": { "Warm": 1, "Cool": 0 } },
+        { "text": "밝고 하얀빛이 도는 깨끗한 조명", "score": { "Warm": 0, "Cool": 1 } }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "립스틱/틴트를 고른다면?",
+      "options": [
+        { "text": "오렌지 레드, 코랄, 벽돌색", "score": { "Warm": 1, "Cool": 0 } },
+        { "text": "체리 레드, 핑크, 플럼", "score": { "Warm": 0, "Cool": 1 } }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "나의 성격은?",
+      "options": [
+        { "text": "다정하고 부드러운 편이다.", "score": { "Warm": 1, "Cool": 0 } },
+        { "text": "솔직하고 쿨한 편이다.", "score": { "Warm": 0, "Cool": 1 } }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "선호하는 머리색은?",
+      "options": [
+        { "text": "자연갈색, 초코브라운", "score": { "Warm": 1, "Cool": 0 } },
+        { "text": "흑발, 애쉬 그레이", "score": { "Warm": 0, "Cool": 1 } }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "꽃을 선물 받는다면?",
+      "options": [
+        { "text": "노란 프리지아나 분홍 튤립", "score": { "Warm": 1, "Cool": 0 } },
+        { "text": "새빨간 장미나 파란 수국", "score": { "Warm": 0, "Cool": 1 } }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "더 좋아하는 분위기는?",
+      "options": [
+        { "text": "빈티지하고 앤티크한 감성", "score": { "Warm": 1, "Cool": 0 } },
+        { "text": "도시적이고 세련된 감성", "score": { "Warm": 0, "Cool": 1 } }
       ]
     }
   ],
@@ -65,4 +117,3 @@
     }
   ]
 }
-
